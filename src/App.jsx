@@ -1,7 +1,19 @@
 import React from 'react';
+import { css } from '@emotion/core'
 
-function App() {
-  return <div className="App">App body...</div>;
-}
+const style = css({
+  color: 'hotpink'
+})
+
+const anotherStyle = css({
+  textDecoration: 'underline'
+})
+ 
+const App = () => (
+  <div css={style}>
+    Some hotpink text.
+    <div css={anotherStyle}>Some text with an underline.</div>
+  </div>
+)
 
 export default App;
