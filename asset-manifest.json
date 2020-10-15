@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/calma/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/calma/static/js/main.66923382.chunk.js",
+    "main.js.map": "/calma/static/js/main.66923382.chunk.js.map",
+    "runtime-main.js": "/calma/static/js/runtime-main.adfe8154.js",
+    "runtime-main.js.map": "/calma/static/js/runtime-main.adfe8154.js.map",
+    "vendor.js": "/calma/static/js/vendor.f94c3876.chunk.js",
+    "vendor.js.map": "/calma/static/js/vendor.f94c3876.chunk.js.map",
+    "vendors~main.js": "/calma/static/js/vendors~main.eca92129.chunk.js",
+    "vendors~main.js.map": "/calma/static/js/vendors~main.eca92129.chunk.js.map",
+    "index.html": "/calma/index.html",
+    "precache-manifest.d8c18de0d3579bbd876933b479ab35eb.js": "/calma/precache-manifest.d8c18de0d3579bbd876933b479ab35eb.js",
+    "service-worker.js": "/calma/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/calma/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/vendor.f94c3876.chunk.js.LICENSE.txt": "/calma/static/js/vendor.f94c3876.chunk.js.LICENSE.txt",
+    "static/js/vendors~main.eca92129.chunk.js.LICENSE.txt": "/calma/static/js/vendors~main.eca92129.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.adfe8154.js",
+    "static/js/vendor.f94c3876.chunk.js",
+    "static/js/vendors~main.eca92129.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.66923382.chunk.js"
+  ]
+}
