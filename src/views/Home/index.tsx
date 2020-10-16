@@ -1,7 +1,11 @@
 import React from 'react';
-import { Text} from '../../components/Text';
+import { About} from '../../components/About';
+import { ParallaxIntro } from '../../components/ParallaxInto';
 
 export const Home = () => (
-    <Text>Work in progress on the future home of Calma Foods.</Text>
+    <>
+        <ParallaxIntro />
+        <About />
+    </>
 );
 
