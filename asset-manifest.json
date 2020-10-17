@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/static/js/main.6cbc9669.chunk.js",
-    "main.js.map": "/static/js/main.6cbc9669.chunk.js.map",
+    "main.css": "/static/css/main.4a680ddd.chunk.css",
+    "main.js": "/static/js/main.48cb6742.chunk.js",
+    "main.js.map": "/static/js/main.48cb6742.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.be76163c.js",
     "runtime-main.js.map": "/static/js/runtime-main.be76163c.js.map",
-    "vendor.js": "/static/js/vendor.7266b0c4.chunk.js",
-    "vendor.js.map": "/static/js/vendor.7266b0c4.chunk.js.map",
-    "vendors~main.js": "/static/js/vendors~main.a1742a69.chunk.js",
-    "vendors~main.js.map": "/static/js/vendors~main.a1742a69.chunk.js.map",
+    "vendor.js": "/static/js/vendor.ccd68ad5.chunk.js",
+    "vendor.js.map": "/static/js/vendor.ccd68ad5.chunk.js.map",
+    "vendors~main.js": "/static/js/vendors~main.7c5d7e14.chunk.js",
+    "vendors~main.js.map": "/static/js/vendors~main.7c5d7e14.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.de10ab897e6deef2b27c8729cf4db39a.js": "/precache-manifest.de10ab897e6deef2b27c8729cf4db39a.js",
+    "precache-manifest.92876db4052e490a9e5af37feae5df1e.js": "/precache-manifest.92876db4052e490a9e5af37feae5df1e.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.5ecd60fb.chunk.css.map": "/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/vendor.7266b0c4.chunk.js.LICENSE.txt": "/static/js/vendor.7266b0c4.chunk.js.LICENSE.txt",
-    "static/js/vendors~main.a1742a69.chunk.js.LICENSE.txt": "/static/js/vendors~main.a1742a69.chunk.js.LICENSE.txt",
+    "static/css/main.4a680ddd.chunk.css.map": "/static/css/main.4a680ddd.chunk.css.map",
+    "static/js/vendor.ccd68ad5.chunk.js.LICENSE.txt": "/static/js/vendor.ccd68ad5.chunk.js.LICENSE.txt",
+    "static/js/vendors~main.7c5d7e14.chunk.js.LICENSE.txt": "/static/js/vendors~main.7c5d7e14.chunk.js.LICENSE.txt",
     "static/media/bg_istockphoto-123099333-1024x1024.jpg": "/static/media/bg_istockphoto-123099333-1024x1024.2b9d4412.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.be76163c.js",
-    "static/js/vendor.7266b0c4.chunk.js",
-    "static/js/vendors~main.a1742a69.chunk.js",
-    "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.6cbc9669.chunk.js"
+    "static/js/vendor.ccd68ad5.chunk.js",
+    "static/js/vendors~main.7c5d7e14.chunk.js",
+    "static/css/main.4a680ddd.chunk.css",
+    "static/js/main.48cb6742.chunk.js"
   ]
 }
