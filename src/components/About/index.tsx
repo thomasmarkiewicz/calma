@@ -1,15 +1,20 @@
 import React, { FC } from 'react';
 import { Text} from '../Text';
 import { Canvas } from '../Canvas';
+import { Logo } from '../Logo';
+import { Heading } from '../Heading';
+import { Subheading } from '../Subheading';
 
 export const About: FC = () => {
   return (
     <Canvas css={{
         height: '370px',
-
+        maxWidth: '980px',
     }}
     > 
-        <h1 css={{margin: 'auto auto', width: '100%'}}>About Calma Foods</h1>
+        <Logo />
+        <Heading>ABOUT CALMA FOODS</Heading>
+        <Subheading>We Bring Amish Country Into Your Home</Subheading>
         <p>
             <Text>
                 It all began in a small store on the northwest side of Chicago. 

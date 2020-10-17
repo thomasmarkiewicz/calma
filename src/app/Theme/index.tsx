@@ -21,37 +21,6 @@ export type ColorScheme = {
 
 export type Color = keyof ColorScheme;
 
-export  const DefaultLightColorScheme: ColorScheme = {
-    primary: '#6200ee',
-    primaryVariant: '#3700b3',
-    secondary: '#03dac6',
-    secondaryVariant: '#018786',
-    surface: 'white',
-    background: 'white',
-    error: '#b00020',
-    onPrimary: 'white',
-    onSecondary: 'black',
-    onSurface: 'black',
-    onBackground: 'black',
-    onError: 'white',
-};
-
-export const DefaultDarkColorScheme: ColorScheme = {
-    primary: '#bb86fc',
-    primaryVariant: '#3700B3',
-    secondary: '#03dac6',
-    secondaryVariant: '#03dac6',
-    surface: '#121212',
-    background: '#121212',
-    error: '#cf6679',
-    onPrimary: 'black',
-    onSecondary: 'black',
-    onSurface: 'white',
-    onBackground: 'white',
-    onError: 'black',
-};
-
-const AppColorScheme: ColorScheme = {...DefaultLightColorScheme }
 
 export type GrayScale = {
     50: string;
@@ -82,6 +51,41 @@ export const gray: GrayScale = {
     800: '#4a4a4a',
     900: '#212121',
 };
+
+export  const DefaultLightColorScheme: ColorScheme = {
+    primary: '#6200ee',
+    primaryVariant: '#3700b3',
+    secondary: '#03dac6',
+    secondaryVariant: '#018786',
+    surface: 'white',
+    background: 'white',
+    error: '#b00020',
+    onPrimary: 'white',
+    onSecondary: 'black',
+    onSurface: 'black',
+    onBackground: 'black',
+    onError: 'white',
+};
+
+export const DefaultDarkColorScheme: ColorScheme = {
+    primary: '#bb86fc',
+    primaryVariant: '#3700B3',
+    secondary: '#03dac6',
+    secondaryVariant: '#03dac6',
+    surface: '#121212',
+    background: '#121212',
+    error: '#cf6679',
+    onPrimary: 'black',
+    onSecondary: 'black',
+    onSurface: 'white',
+    onBackground: 'white',
+    onError: 'black',
+};
+
+const AppColorScheme: ColorScheme = {
+    ...DefaultLightColorScheme,
+    onSurface: gray[600],
+}
 
 export interface Theme {
     accentColor: string,
