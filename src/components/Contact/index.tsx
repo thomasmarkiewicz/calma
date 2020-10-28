@@ -3,6 +3,8 @@ import { Text} from '../Text';
 import { Canvas } from '../Canvas';
 import { Heading } from '../Heading';
 import { Subheading } from '../Subheading';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope, faMapMarkerAlt, faPhone } from '@fortawesome/free-solid-svg-icons'
 
 export const Contact: FC = () => {
   return (
@@ -16,18 +18,18 @@ export const Contact: FC = () => {
 
         <p>
             <Text>
-                Chicago, IL
+              <FontAwesomeIcon icon={faMapMarkerAlt} css={{fontSize: '1.8em', verticalAlign: 'middle'}} /> Chicago, IL
             </Text>
         </p>
 
         <p>
             <Text>
-                Phone: xxx-xxx-xxxx
+              <FontAwesomeIcon icon={faPhone} css={{fontSize: '1.8em', verticalAlign: 'middle'}} /> Phone: xxx-xxx-xxxx
             </Text>
         </p>
         <p>
             <Text>
-                Email: mail@mail.com
+              <FontAwesomeIcon icon={faEnvelope} css={{fontSize: '1.8em', verticalAlign: 'middle'}} /> Email: mail@mail.com
             </Text>
         </p>
 
