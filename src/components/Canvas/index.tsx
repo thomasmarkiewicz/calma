@@ -1,6 +1,9 @@
 import React, { FC } from 'react';
+import { Theme } from '../../app/Theme';
+import { useTheme } from 'emotion-theming';
 
 export const Canvas: FC = ({children, ...rest}) => {
+  const theme = useTheme<Theme>();
   return (
     <div css={{
         paddingTop: '64px !important',
@@ -11,7 +14,8 @@ export const Canvas: FC = ({children, ...rest}) => {
         marginLeft: 'auto',
         marginRight: 'auto',
         boxSiding: 'inherit',
-        lineHeight: '1.8'
+        lineHeight: '1.8',
+        backgroundColor: theme.canvasColor,
     }}
     {...rest}
     >

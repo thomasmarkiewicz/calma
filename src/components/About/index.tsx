@@ -8,7 +8,6 @@ import { Subheading } from '../Subheading';
 export const About: FC = () => {
   return (
     <Canvas css={{
-        
         maxWidth: '980px',
     }}
     > 
@@ -35,14 +34,14 @@ export const About: FC = () => {
         <p>
             <Text>
                 Brought up on small farms in Poland, we understand that the most natural way 
-                to grow foods is without pesticides, hormones, and in harmony with mother nature. 
+                to grow food is without pesticides, hormones, and in harmony with mother nature. 
                 We continously pursue to find farmers, retailers, and consumers who share
                 and appreciate this basic philosophy.
             </Text>
         </p>
         <p>
             <Text>
-                We travel weekly to individual farms of the America's midwest to bring you the 
+                We travel weekly to individual farms of the America's Midwest to bring you the 
                 finest, freshest, all-natural foods that can only be proven by their taste.
             </Text>
         </p>

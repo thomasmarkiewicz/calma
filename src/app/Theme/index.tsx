@@ -84,6 +84,7 @@ export const DefaultDarkColorScheme: ColorScheme = {
 
 const AppColorScheme: ColorScheme = {
     ...DefaultLightColorScheme,
+    surface: '#fcfcfc',
     onSurface: gray[600],
 }
 
@@ -114,7 +115,7 @@ const DefaultTheme: Theme = {
     accentColor: AppColorScheme.onSecondary,
     backgroundColor: AppColorScheme.onPrimary, // or background?
     buttonColor: AppColorScheme.primary,
-    canvasColor: AppColorScheme.background, // todo: maybe a little lighter then scaffold?
+    canvasColor: AppColorScheme.surface, // todo: maybe a little lighter then scaffold?
     cardColor: AppColorScheme.surface,
     colorScheme: AppColorScheme,
     cursorColor: AppColorScheme.primary,
@@ -131,8 +132,9 @@ const DefaultTheme: Theme = {
     primaryColorLight: AppColorScheme.primary, // todo
     scaffoldBackgroundColor: AppColorScheme.background,
     selectedRowColor: gray[500],
-    
 }
 
-export const AppTheme: Theme = {...DefaultTheme};
+export const AppTheme: Theme = {
+    ...DefaultTheme,
+};
 

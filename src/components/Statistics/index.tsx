@@ -1,19 +1,40 @@
 import React, { FC } from 'react';
-import { Text} from '../Text';
-import { Canvas } from '../Canvas';
-import { Logo } from '../Logo';
 import { Heading } from '../Heading';
-import { Subheading } from '../Subheading';
+import { Text } from '../Text';
 
 export const Statistics: FC = () => {
+  const itemStyle = {padding: '24px'};
+  const textStyle = {color: 'white'};
   return (
     <div css={{
-        height: '30px',
-        padding: '16px',
-        backgroundColor: 'gray'
+        backgroundColor: '#7a7572',
+        color: 'white',
+        fontSize: 20,
+        fontWeight: 500,
+        lineHeight: '1.8',
+        textAlign: 'center',
+        display: 'grid',
+        alignItems: 'center',
+        gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
+        gridGap: '1rem',
     }}
     >
-        Statistics
+        <div css={itemStyle}>
+          <Heading css={textStyle}>14 +</Heading>
+          <Text css={textStyle}>Farms</Text>
+        </div>
+        <div css={itemStyle}>
+          <Heading css={textStyle}>55 +</Heading>
+          <Text css={textStyle}>Products</Text>
+        </div>
+        <div css={itemStyle}>
+          <Heading css={textStyle}>163 +</Heading>
+          <Text css={textStyle}>Stores</Text>
+        </div>
+        <div css={itemStyle}>
+          <Heading css={textStyle}>1000's +</Heading>
+          <Text css={textStyle}>Consumers</Text>
+        </div>
     </div>
   );
 }

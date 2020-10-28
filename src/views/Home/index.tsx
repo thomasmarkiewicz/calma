@@ -1,5 +1,6 @@
 import React from 'react';
 import { About} from '../../components/About';
+import { Contact } from '../../components/Contact';
 import { ParallaxIntro } from '../../components/ParallaxIntro';
 import { ParallaxProducts } from '../../components/ParallaxProducts';
 import { ParallaxContact } from '../../components/ParallaxContact';
@@ -14,6 +15,6 @@ export const Home = () => (
         <ParallaxProducts />
         <Products />
         <ParallaxContact />
-        <About />
+        <Contact />
     </>
 );
