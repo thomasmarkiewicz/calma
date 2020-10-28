@@ -19,7 +19,7 @@ export const Text: FC<Props> = ({
         color: theme.colorScheme.onSurface,
         lineHeight: '1.8',
         fontSize: '16px',
-        fontWeight: '600',
+        fontWeight: '400',
         textAlign: 'center !important'
       }}
       {...rest}
