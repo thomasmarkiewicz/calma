@@ -10,7 +10,7 @@ const mq = facepaint(
 
 export const ParallaxProducts: FC = () => {
   return (
-    <div css={mq({
+    <div id="products" css={mq({
         backgroundImage: `url(${eggs})`,
         minHeight: '360px',
         backgroundAttachment: 'fixed',

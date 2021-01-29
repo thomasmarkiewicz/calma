@@ -6,15 +6,18 @@ import { ParallaxProducts } from '../../components/ParallaxProducts';
 import { ParallaxContact } from '../../components/ParallaxContact';
 import { Statistics } from '../../components/Statistics';
 import { Products } from '../../components/Products';
+import { Navbar } from '../../components/Navbar';
 
 export const Home = () => (
-    <>
-        <ParallaxIntro />
+    <div id="home">
+        <Navbar />
+        <ParallaxIntro  />
         <About />
         <Statistics />
         <ParallaxProducts />
         <Products />
         <ParallaxContact />
         <Contact />
-    </>
+        <div css={{position: "relative", height: 500}} />
+    </div>
 );

@@ -10,8 +10,8 @@ export const About: FC = () => {
     <Canvas css={{
         maxWidth: '980px',
     }}
-    > 
-        <Logo />
+    >   
+        <div css={{position: "relative", top: '-60px'}} id="about"></div>
         <Heading>ABOUT CALMA FOODS</Heading>
         <Subheading>We Bring Amish Country Into Your Home</Subheading>
 

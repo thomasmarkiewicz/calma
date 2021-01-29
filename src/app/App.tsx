@@ -11,6 +11,10 @@ export const App = () => (
       body {
         background-color: #fcfcfc;
       }
+      a {
+        background-color: transparent
+      }
+      a:active, a:hover { outline-width: 0 }
     `}/>
     <ThemeProvider theme={AppTheme}>
       <Scaffold>

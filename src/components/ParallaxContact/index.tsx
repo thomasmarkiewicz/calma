@@ -12,7 +12,7 @@ const mq = facepaint(
 
 export const ParallaxContact: FC = () => {
   return (
-    <div css={mq({
+    <div id="contact" css={mq({
         backgroundImage: `url(${img})`,
         minHeight: '360px',
         backgroundAttachment: 'fixed',
