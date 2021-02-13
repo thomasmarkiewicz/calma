@@ -1,79 +1,51 @@
 [
-    {
-        "id": "1a045b16772a",
-        "name": "Brown Cage-Free Eggs",
-        "desc": "12 Grade A",
-        "options": ["Medium", "Large", "Extra Large"],
-        "imgs": ["p1.jpg"]
-    },
-    {
-        "id": "7490b05667ac",
-        "name": "Whole Fryer Chicken",
-        "desc": "Amish Country Poultry",
-        "options": [],
-        "imgs": ["p2.jpg"]
-    },
-    {
-        "id": "94bb0e54c42f",
-        "name": "Amish Unsalted Butter",
-        "desc": "Grade AA",
-        "options": [],
-        "imgs": ["p3.jpg"]
-    },
-    {
-        "id": "512f8207b2b1",
-        "name": "Amish Honey",
-        "desc": "",
-        "options": [],
-        "imgs": ["p4.jpg"]
-    },
-    {
-        "id": "84e3af6caa96",
-        "name": "Plum Butter",
-        "desc": "",
-        "options": [],
-        "imgs": ["p5.jpg"]
-    },
-    {
-        "id": "616cf3fe3094",
-        "name": "Apple Butter",
-        "desc": "",
-        "options": [],
-        "imgs": ["p6.jpg"]
-    },
-    {
-        "id": "e843784c2a58",
-        "name": "Strawberry Rhubarb",
-        "desc": "Fruit Spread",
-        "options": [],
-        "imgs": ["p7.jpg"]
-    },
-    {
-        "id": "d62bf2983dd2",
-        "name": "Black Rasberry",
-        "desc": "Fruit Spread",
-        "options": [],
-        "imgs": ["p8.jpg"]
-    },
-    {
-        "id": "9b8bef2f1849",
-        "name": "Gooseberry",
-        "desc": "Fruit Spread",
-        "options": [],
-        "imgs": []
-    },
-    {
-        "id": "92e3c1362b5b",
-        "name": "Sour Cherry",
-        "desc": "Fruit Spread",
-        "options": [],
-        "imgs": []
-    },
-    {
-        "id": "25c4f0a58388",
-        "name": "Apricot",
-        "desc": "Fruit Spread",
-        "options": [],
-        "imgs": []
-    }
+  {
+    "id": "eggs",
+    "name": "Eggs",
+    "desc": "",
+    "options": ["Medium", "Large", "Extra Large"],
+    "images": ["p1.jpg"]
+  },
+  {
+    "id": "milk",
+    "name": "Milk",
+    "desc": "",
+    "options": [],
+    "images": ["p2.jpg"]
+  },
+  {
+    "id": "butter",
+    "name": "Butter",
+    "desc": "",
+    "options": [],
+    "images": ["p3.jpg"]
+  },
+  {
+    "id": "chicken",
+    "name": "Chicken",
+    "desc": "",
+    "options": [],
+    "images": ["p4.jpg"]
+  },
+  {
+    "id": "turkey",
+    "name": "Turkey",
+    "desc": "",
+    "options": [],
+    "images": ["p5.jpg"]
+  }
+  {
+    "id": "honey",
+    "name": "Honey",
+    "desc": "",
+    "options": [],
+    "images": ["p6.jpg"]
+  },
+  {
+    "id": "jam",
+    "name": "Jam",
+    "desc": "",
+    "options": [],
+    "images": ["p7.jpg"]
+  }
 ]
