@@ -26,7 +26,7 @@ export const Products: FC = () => {
           {
             products.slice(0,8).map(p => 
               <img 
-                src={require(`../../img/${p.imgs[0]}`)} 
+                src={require(`../../img/${p.images[0]}`)} 
                 alt={p.name}
                 css={{
                   cursor: 'pointer',
