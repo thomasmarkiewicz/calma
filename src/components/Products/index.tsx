@@ -1,14 +1,15 @@
-import React, { FC, useState } from "react";
+import React, { FC, useState, useRef } from "react";
 import { Canvas } from "../Canvas";
 import { Logo } from "../Logo";
 import { Heading } from "../Heading";
 import { Subheading } from "../Subheading";
 import products from "../../data/products.json";
-import { Locator } from "../Locator";
+import  Locator from "../Locator";
 
 export const Products: FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [productId, setProductId] = useState("");
+  const locatorRef = useRef(null);
 
   return (
     <Canvas
@@ -21,6 +22,10 @@ export const Products: FC = () => {
         isOpen={isOpen}
         productId={productId}
         close={() => setIsOpen(false)}
+        getLocation={locatorRef?.current ? (locatorRef?.current as any).getLocation : ()=>{
+          console.log('here');
+        }}
+        ref={locatorRef}
       />
       <Logo />
       <Heading>FRESH FROM THE FARM</Heading>
