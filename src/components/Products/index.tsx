@@ -1,16 +1,25 @@
-import React, { FC, useState, useRef } from "react";
+import React, { FC, useState, useRef, useEffect } from "react";
 import { Canvas } from "../Canvas";
 import { Logo } from "../Logo";
 import { Heading } from "../Heading";
 import { Subheading } from "../Subheading";
 import products from "../../data/products.json";
-import  Locator from "../Locator";
+import Locator from "../Locator";
+import stores from "../../data/stores.json";
 
 export const Products: FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [productId, setProductId] = useState("");
+  const [storesWithDistance, setStoresWithDistance] = useState(stores);
   const locatorRef = useRef(null);
 
+  // useEffect(() => {
+  //   console.log("RUNNING");
+  //   if ((locatorRef?.current as any)?.coords) {
+  //     console.log("TM: calculating store distances");
+  //   }
+  // }, [(locatorRef?.current as any)?.coords]);
+  
   return (
     <Canvas
       css={{
@@ -21,11 +30,31 @@ export const Products: FC = () => {
       <Locator
         isOpen={isOpen}
         productId={productId}
+        stores={storesWithDistance}
         close={() => setIsOpen(false)}
-        getLocation={locatorRef?.current ? (locatorRef?.current as any).getLocation : ()=>{
-          console.log('here');
-        }}
+        getLocation={
+          locatorRef?.current
+            ? (locatorRef?.current as any).getLocation
+            : () => {
+                console.log("here");
+              }
+        }
         ref={locatorRef}
+        calcDist={async (coords) => {
+          console.log("TM: calculating store distances");
+          const storeCoords = stores.map((s) => `${s.lon},${s.lat}`).join(";");
+          console.log("storeCoords", storeCoords);
+          const response = await fetch(
+            `http://router.project-osrm.org/route/v1/driving/${coords.longitude},${coords.latitude};${storeCoords}?overview=false`
+          )
+            .then((response) => response.json())
+            .then((data) => ({
+              ...data,
+            }));
+          console.log("response:", response);
+          //setStoresWithDistance(storesWithDistance);
+          //console.log("DONE:", storesWithDistance);
+        }}
       />
       <Logo />
       <Heading>FRESH FROM THE FARM</Heading>
@@ -48,7 +77,7 @@ export const Products: FC = () => {
               borderStyle: "none",
               width: "100%",
             }}
-            onClick={()=>{
+            onClick={() => {
               setProductId(p.id);
               setIsOpen(true);
             }}

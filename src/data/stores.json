@@ -3,34 +3,40 @@
     "id": "2cc176a02697",
     "name": "Ada's European Market",
     "desc": "",
-    "street": "8301 W. Grand Ave",
+    "street": "8301 Grand Ave",
     "city": "River Grove",
     "state": "IL",
     "zip": "60171",
     "phone": "",
-    "products": ["eggs", "butter", "honey"]
+    "products": ["eggs", "butter", "honey"],
+    "lat": 41.9281057,
+    "lon": -87.8358121
   },
   {
     "id": "b80ee6ce9c3e",
     "name": "Amish Healthy Foods",
     "desc": "",
-    "street": "1023 N. Western",
+    "street": "1023 N Western Ave",
     "city": "Chicago",
     "state": "IL",
     "zip": "60622",
-    "phone": "",
-    "products": ["milk", "chicken", "jam"]
+    "phone": "(773) 278-1717",
+    "products": ["milk", "chicken", "jam"],
+    "lat": 41.9001769,
+    "lon": -87.6888491
   },
   {
     "id": "89aadf362518",
-    "name": "Andy's Deli",
+    "name": "Andy's Deli & Mikolajczyk Sausage Shop Inc",
     "desc": "",
-    "street": "5442 N. Milwaukee",
+    "street": "5442 N Milwaukee Ave",
     "city": "Chicago",
     "state": "IL",
     "zip": "60630",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey"]
+    "products": ["eggs", "milk", "butter", "honey"],
+    "lat": 41.9803056,
+    "lon": -87.7745748
   },
   {
     "id": "cab1eef31a37",
@@ -41,535 +47,633 @@
     "state": "IL",
     "zip": "60047",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "chicken", "honey", "jam"]
+    "products": ["eggs", "milk", "butter", "chicken", "honey", "jam"],
+    "lat": 42.1858085,
+    "lon": -88.0914855
   },
   {
     "id": "839592e14fb8",
-    "name": "Ann's Bakery",
+    "name": "Ann's Bakery and Deli",
     "desc": "",
-    "street": "2158 W. Chicago Ave",
+    "street": "2158 W Chicago Ave",
     "city": "Chicago",
     "state": "IL",
     "zip": "60622",
     "phone": "",
-    "products": ["eggs", "milk", "chicken"]
+    "products": ["eggs", "milk", "chicken"],
+    "lat": 41.8333925,
+    "lon": -88.0123393
   },
   {
     "id": "1f4cb25b900e",
     "name": "Avenue Food Mart",
     "desc": "",
-    "street": "6850 W. Belmont Ave",
+    "street": "6850 W Belmont Ave",
     "city": "Chicago",
     "state": "IL",
     "zip": "60634",
     "phone": "",
-    "products": ["eggs", "milk", "butter"]
+    "products": ["eggs", "milk", "butter"],
+    "lat": 41.9384038,
+    "lon": -87.7973446
   },
   {
     "id": "5c65e7711dc6",
     "name": "Bacik Deli",
     "desc": "",
-    "street": "7744 N. Milwaukee Ave",
+    "street": "7744 N Milwaukee Ave",
     "city": "Niles",
     "state": "IL",
     "zip": "60714",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 42.0218579,
+    "lon": -87.8130771
   },
   {
     "id": "767bcb6889ca",
-    "name": "Baranowski",
+    "name": "Baranowski Bakery & Deli",
     "desc": "",
-    "street": "9653 W Grand Ave",
+    "street": "9560 W Grand Ave",
     "city": "Franklin Park",
     "state": "IL",
     "zip": "60131",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "chicken"]
+    "products": ["eggs", "milk", "butter", "chicken"],
+    "lat": 41.9298272,
+    "lon": -87.8666449
   },
   {
     "id": "25d158932efc",
     "name": "Berwyn Fruit Market",
     "desc": "",
-    "street": "3811 S. Harlem Ave",
+    "street": "3811 S Harlem Ave",
     "city": "Berwyn",
     "state": "IL",
     "zip": "60402",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey"]
+    "products": ["eggs", "milk", "butter", "honey"],
+    "lat": 41.8224019,
+    "lon": -87.8045162
   },
   {
     "id": "7db3b4b5d60e",
     "name": "Bristol Deli",
     "desc": "",
-    "street": "5205 W. Belmont Ave",
+    "street": "5207 W Belmont Ave",
     "city": "Chicago",
     "state": "IL",
     "zip": "60641",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.9385654,
+    "lon": -87.7592873
   },
   {
     "id": "b4724ce2b6b4",
-    "name": "Brookhaven",
+    "name": "Brookhaven Marketplace",
     "desc": "",
-    "street": "100 Burr Ridge Parkway",
+    "street": "100 Burr Ridge Pkwy",
     "city": "Burr Ridge",
     "state": "IL",
     "zip": "60527",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey"]
+    "products": ["eggs", "milk", "butter", "honey"],
+    "lat": 41.7496686,
+    "lon": -87.9151336
   },
   {
     "id": "10e177afe1b8",
-    "name": "Brookhaven",
+    "name": "Brookhaven Marketplace",
     "desc": "",
-    "street": "7516 S. Cass Avenue",
+    "street": "7516 S Cass Ave",
     "city": "Darien",
     "state": "IL",
     "zip": "60561",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam"]
+    "products": ["eggs", "milk", "butter", "honey", "jam"],
+    "lat": 41.7510714,
+    "lon": -87.9714793
   },
   {
     "id": "ccd75524496d",
-    "name": "Brookhaven",
+    "name": "Brookhaven Marketplace",
     "desc": "",
-    "street": "19818 North La Grange Road",
+    "street": "19818 South La Grange Road",
     "city": "Mokena",
     "state": "IL",
     "zip": "60448",
     "phone": "",
-    "products": ["eggs", "butter", "jam"]
+    "products": ["eggs", "butter", "jam"],
+    "lat": 41.5300544,
+    "lon": -87.8543317
   },
   {
     "id": "5af473f40eee",
-    "name": "Butera",
+    "name": "Butera Market",
     "desc": "",
-    "street": "100 S. Randall Road",
+    "street": "100 S Randall Rd",
     "city": "Algonquin",
     "state": "IL",
     "zip": "60192",
     "phone": "",
-    "products": ["eggs", "butter", "honey"]
+    "products": ["eggs", "butter", "honey"],
+    "lat": 42.174699,
+    "lon": -88.3404337
   },
   {
     "id": "b7ffc9628952",
-    "name": "Butera",
+    "name": "Butera Market",
     "desc": "",
-    "street": "1555 Lee St.",
+    "street": "1555 Lee St",
     "city": "Des Plaines",
     "state": "IL",
     "zip": "60018",
     "phone": "",
-    "products": ["eggs", "jam"]
+    "products": ["eggs", "jam"],
+    "lat": 42.0261668,
+    "lon": -87.8945108
   },
   {
     "id": "4538aee69135",
-    "name": "Butera",
+    "name": "Butera Market",
     "desc": "",
-    "street": "20825 S. LaGrange Rd",
+    "street": "20825 S LaGrange Rd",
     "city": "Frankfort",
     "state": "IL",
     "zip": "60423",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.51137,
+    "lon": -87.8497902
   },
   {
     "id": "71361cc4fbf9",
-    "name": "Butera",
+    "name": "Butera Market",
     "desc": "",
     "street": "815 Center St",
     "city": "Grayslake",
     "state": "IL",
     "zip": "60030",
     "phone": "",
-    "products": ["eggs", "butter", "honey"]
+    "products": ["eggs", "butter", "honey"],
+    "lat": 42.3435411,
+    "lon": -88.025453
   },
   {
     "id": "73f152e70472",
-    "name": "Butera",
+    "name": "Butera Market",
     "desc": "",
-    "street": "4761 N. Nagle Ave",
+    "street": "4761 N Nagle Ave",
     "city": "Harwood Heights",
     "state": "IL",
     "zip": "60706",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.9638519,
+    "lon": -87.8459799
   },
   {
     "id": "d940b75b504f",
-    "name": "Butera",
+    "name": "Butera Market",
     "desc": "",
-    "street": "1500 E. Grand  Ave",
+    "street": "1500 E Grand Ave",
     "city": "Lindenhurst",
     "state": "IL",
     "zip": "60046",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 42.3946549,
+    "lon": -88.0204465
   },
   {
     "id": "b6b8cc72ecbb",
-    "name": "Butera",
+    "name": "Butera Market",
     "desc": "",
     "street": "550 Lake Street",
     "city": "Roselle",
     "state": "IL",
     "zip": "60172",
     "phone": "",
-    "products": ["eggs", "butter"]
+    "products": ["eggs", "butter"],
+    "lat": 41.964256,
+    "lon": -88.0991897
   },
   {
     "id": "72bb21583dfe",
-    "name": "Butera",
+    "name": "Butera Market",
     "desc": "",
-    "street": "4411 N. Cumberland Ave",
+    "street": "4411 N Cumberland Ave",
     "city": "Norridge",
     "state": "IL",
     "zip": "60706",
     "phone": "",
-    "products": ["eggs", "butter"]
+    "products": ["eggs", "butter"],
+    "lat": 41.9630222,
+    "lon": -87.8209173
   },
   {
     "id": "6c6684c5252d",
-    "name": "Butera",
+    "name": "Butera Market",
     "desc": "",
     "street": "2070 N Rand Rd",
     "city": "Palatine",
     "state": "IL",
     "zip": "60074",
     "phone": "",
-    "products": ["eggs", "butter", "honey"]
+    "products": ["eggs", "butter", "honey"],
+    "lat": 42.146991,
+    "lon": -88.0341017
   },
   {
     "id": "ad979efaf9f1",
-    "name": "Caputo's",
+    "name": "Caputo's Fresh Markets",
     "desc": "",
     "street": "166 E Lake St",
     "city": "Bloomingdale",
     "state": "IL",
     "zip": "60108",
     "phone": "",
-    "products": ["eggs", "milk", "butter"]
+    "products": ["eggs", "milk", "butter"],
+    "lat": 41.9561215,
+    "lon": -88.0761714
   },
   {
     "id": "e922d69245d9",
-    "name": "Caputo's",
+    "name": "Caputo's Fresh Markets",
     "desc": "",
-    "street": "510 W. Lake Street",
+    "street": "510 W Lake St",
     "city": "Addison",
     "state": "IL",
     "zip": "60101",
     "phone": "",
-    "products": ["eggs", "milk", "butter"]
+    "products": ["eggs", "milk", "butter"],
+    "lat": 41.9397434,
+    "lon": -88.0035031
   },
   {
     "id": "f6f7d32f9820",
-    "name": "Caputo's",
+    "name": "Caputo's Fresh Markets",
     "desc": "",
     "street": "520 E North Ave",
     "city": "Carol Stream",
     "state": "IL",
     "zip": "60188",
     "phone": "",
-    "products": ["eggs", "milk", "butter"]
+    "products": ["eggs", "milk", "butter"],
+    "lat": 41.9010443,
+    "lon": -88.1059542
   },
   {
     "id": "3c4eb62f9a86",
-    "name": "Caputo's",
+    "name": "Caputo's Fresh Markets",
     "desc": "",
-    "street": "2400 N. Harlem Ave",
+    "street": "2400 N Harlem Ave",
     "city": "Elmwood Park",
     "state": "IL",
     "zip": "60707",
     "phone": "",
-    "products": ["eggs", "milk", "butter"]
+    "products": ["eggs", "milk", "butter"],
+    "lat": 41.9245056,
+    "lon": -87.8092226
   },
   {
     "id": "a53ded98294d",
-    "name": "Caputo's",
+    "name": "Caputo's Fresh Markets",
     "desc": "",
     "street": "1250 Lake St",
     "city": "Hanover Park",
     "state": "IL",
     "zip": "60133",
     "phone": "",
-    "products": ["eggs", "milk", "butter"]
+    "products": ["eggs", "milk", "butter"],
+    "lat": 41.9785608,
+    "lon": -88.1384677
   },
   {
     "id": "5fe3c0bd93d3",
-    "name": "Caputo's",
+    "name": "Caputo's Fresh Markets",
     "desc": "",
     "street": "3115 111th St",
     "city": "Naperville",
     "state": "IL",
     "zip": "60564",
     "phone": "",
-    "products": ["eggs", "milk", "butter"]
+    "products": ["eggs", "milk", "butter"],
+    "lat": 41.681454,
+    "lon": -88.2096527
   },
   {
     "id": "e58e982c3364",
-    "name": "Celina's Deli",
+    "name": "Celina's Fresh Market",
     "desc": "",
-    "street": "14164 McCarthy Street",
+    "street": "14164 McCarthy Rd",
     "city": "Lemont",
     "state": "IL",
     "zip": "60439",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "jam", "turkey"]
+    "products": ["eggs", "milk", "butter", "jam", "turkey"],
+    "lat": 41.6655072,
+    "lon": -88.000536
   },
   {
     "id": "7042f414cac3",
     "name": "City Fresh Market",
     "desc": "",
-    "street": "3201 W. Devon Ave",
+    "street": "3201 W Devon Ave",
     "city": "Chicago",
     "state": "IL",
     "zip": "60659",
     "phone": "",
-    "products": ["eggs", "milk", "butter"]
+    "products": ["eggs", "milk", "butter"],
+    "lat": 41.9972222,
+    "lon": -87.7121887
   },
   {
     "id": "d5d5296214ee",
-    "name": "Deli 4 You",
+    "name": "Deli 4 You Market",
     "desc": "",
-    "street": "1601 S. Randall Road",
+    "street": "1601 S Randall Road",
     "city": "Algonquin",
     "state": "IL",
     "zip": "60102",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "turkey"]
+    "products": ["eggs", "milk", "butter", "turkey"],
+    "lat": 42.1528846,
+    "lon": -88.334403
   },
   {
     "id": "50ebe2ec077e",
-    "name": "Deli 4 You",
+    "name": "Deli 4 You Market",
     "desc": "",
-    "street": "4343 N. Harlem Ave",
+    "street": "4343 N Harlem Ave",
     "city": "Norridge",
     "state": "IL",
     "zip": "60706",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "chicken", "honey", "jam"]
+    "products": ["eggs", "milk", "butter", "chicken", "honey", "jam"],
+    "lat": 41.960138,
+    "lon": -87.8091487
   },
   {
     "id": "2071b3128f2e",
-    "name": "Deli 4 You",
+    "name": "Deli 4 You Market",
     "desc": "",
-    "street": "9 E. Camp McDonald Road",
+    "street": "9 E Camp McDonald Road",
     "city": "Prospect Heights",
     "state": "IL",
     "zip": "60070",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam"]
+    "products": ["eggs", "milk", "butter", "honey", "jam"],
+    "lat": 42.0946706,
+    "lon": -87.9380015
   },
   {
     "id": "d9278979e50b",
-    "name": "Deli 4 You",
+    "name": "Deli 4 You Market",
     "desc": "",
-    "street": "560 S. Roselle Road",
+    "street": "560 S Roselle Road",
     "city": "Schaumburg",
     "state": "IL",
     "zip": "60193",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam", "turkey"]
+    "products": ["eggs", "milk", "butter", "honey", "jam", "turkey"],
+    "lat": 42.017249,
+    "lon": -88.084052
   },
   {
     "id": "cbc6cca25c24",
     "name": "Devon Market",
     "desc": "",
-    "street": "1440 W. Devon",
+    "street": "1440 W Devon Ave",
     "city": "Chicago",
     "state": "IL",
     "zip": "60660",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam"]
+    "products": ["eggs", "milk", "butter", "honey", "jam"],
+    "lat": 41.9983338,
+    "lon": -87.6692901
   },
   {
     "id": "db46a860b14d",
     "name": "Alex Super Deli",
     "desc": "",
-    "street": "3055 N. Milwaukee Ave",
+    "street": "3055 N Milwaukee Ave",
     "city": "Chicago",
     "state": "IL",
     "zip": "60618",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.9367703,
+    "lon": -87.7219405
   },
   {
     "id": "e25356738ba3",
-    "name": "Eurofresh Palatine",
+    "name": "Eurofresh Market",
     "desc": "",
-    "street": "130 W. Northwest Highway",
+    "street": "130 W Northwest Hwy",
     "city": "Palatine",
     "state": "IL",
     "zip": "60067",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "chicken", "honey", "jam", "turkey"]
+    "products": ["eggs", "milk", "butter", "chicken", "honey", "jam", "turkey"],
+    "lat": 42.123133,
+    "lon": -88.0493847
   },
   {
     "id": "ef792a4d117f",
     "name": "Ewa's Polish Deli",
     "desc": "",
-    "street": "160 E. Lake Street",
+    "street": "160 E Lake St",
     "city": "Bloomingdale",
     "state": "IL",
     "zip": "60108",
     "phone": "",
-    "products": ["eggs", "milk", "chicken", "honey", "jam"]
+    "products": ["eggs", "milk", "chicken", "honey", "jam"],
+    "lat": 41.956062,
+    "lon": -88.07665
   },
   {
     "id": "fbbc4aea2ce3",
-    "name": "Franks Fresh Market",
+    "name": "Frank's Fresh Market",
     "desc": "",
     "street": "470 Georgetown Square",
     "city": "Wood Dale",
     "state": "IL",
     "zip": "60191",
     "phone": "",
-    "products": ["eggs", "milk", "butter"]
+    "products": ["eggs", "milk", "butter"],
+    "lat": 41.964495,
+    "lon": -87.9979617
   },
   {
     "id": "96744eec7f80",
-    "name": "Fresh Farms",
+    "name": "Fresh Farms International Market",
     "desc": "",
-    "street": "8203 W. Golf",
+    "street": "8203 W Golf Rd",
     "city": "Niles",
     "state": "IL",
     "zip": "60714",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam"]
+    "products": ["eggs", "milk", "butter", "honey", "jam"],
+    "lat": 42.0336773,
+    "lon": -87.8361012
   },
   {
     "id": "c35dc5263033",
-    "name": "Niles Grand LLC",
+    "name": "Fresh Farms International Market",
     "desc": "",
-    "street": "5740 West Touhy Avenue",
+    "street": "5740 W Touhy Ave",
     "city": "Niles",
     "state": "IL",
     "zip": "60714",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam"]
+    "products": ["eggs", "milk", "butter", "honey", "jam"],
+    "lat": 42.0308391,
+    "lon": -87.8461644
   },
   {
     "id": "aa94dd57295f",
     "name": "Fresh Market Place",
     "desc": "",
-    "street": "2134 N. Western Ave",
+    "street": "2134 N Western Ave",
     "city": "Chicago",
     "state": "IL",
     "zip": "60647",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey"]
+    "products": ["eggs", "milk", "butter", "honey"],
+    "lat": 41.9210972,
+    "lon": -87.6900776
   },
   {
     "id": "d2d84ca7cb8e",
     "name": "Gambino's Fresh Market",
     "desc": "",
-    "street": "3720 25th Ave",
+    "street": "3720 Rose St",
     "city": "Schiller Park",
     "state": "IL",
     "zip": "60176",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.9470863,
+    "lon": -87.8689032
   },
   {
     "id": "9539b615fb48",
     "name": "Garden Fresh Market",
     "desc": "",
-    "street": "770 S. Buffalo Grove Road",
+    "street": "770 S Buffalo Grove Rd",
     "city": "Buffalo Grove",
     "state": "IL",
     "zip": "60089",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam"]
+    "products": ["eggs", "milk", "butter", "honey", "jam"],
+    "lat": 42.1409031,
+    "lon": -87.962467
   },
   {
     "id": "98913cee1bcb",
     "name": "Garden Fresh Market",
     "desc": "",
-    "street": "390 Townline Road",
+    "street": "390 Townline Rd",
     "city": "Mundelein",
     "state": "IL",
     "zip": "60060",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam"]
+    "products": ["eggs", "milk", "butter", "honey", "jam"],
+    "lat": 42.2411651,
+    "lon": -87.9982519
   },
   {
     "id": "af8a4548041d",
     "name": "Gepperth's Meat Market",
     "desc": "",
-    "street": "1964 North Halsted",
+    "street": "1964 N Halsted St",
     "city": "Chicago",
     "state": "IL",
     "zip": "60614",
     "phone": "",
-    "products": ["eggs", "chicken"]
+    "products": ["eggs", "chicken"],
+    "lat": 41.9178511,
+    "lon": -87.6508439
   },
   {
     "id": "1c193a235346",
     "name": "Gorka Deli",
     "desc": "",
-    "street": "15118 S. La Grange Road",
+    "street": "15118 South La Grange Road",
     "city": "Orland Park",
     "state": "IL",
     "zip": "60462",
     "phone": "",
-    "products": ["eggs", "butter", "chicken"]
+    "products": ["eggs", "butter", "chicken"],
+    "lat": 41.6148723,
+    "lon": -87.8574927
   },
   {
     "id": "0137ee0519ad",
-    "name": "Harvest Fresh",
+    "name": "Harvest Fresh Market",
     "desc": "",
-    "street": "100 E. Rand Road",
+    "street": "100 E Rand Road",
     "city": "Arlington Heights",
     "state": "IL",
     "zip": "60004",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam"]
+    "products": ["eggs", "milk", "butter", "honey", "jam"],
+    "lat": 42.113908,
+    "lon": -87.9834606
   },
   {
     "id": "d3bca21a1f4d",
     "name": "Helen's Deli",
     "desc": "",
-    "street": "272 W. Irving Park Road",
+    "street": "272 W Irving Park Rd",
     "city": "Wood Dale",
     "state": "IL",
     "zip": "60191",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.964354,
+    "lon": -87.9889755
   },
   {
     "id": "5f3613e78247",
     "name": "Hetman Deli",
     "desc": "",
-    "street": "5513 W. Belmont Ave",
+    "street": "5513 W Belmont Ave",
     "city": "Chicago",
     "state": "IL",
     "zip": "60641",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.9384833,
+    "lon": -87.7668526
   },
   {
     "id": "cf0d5d6aa4da",
     "name": "Hickory Hills Deli",
     "desc": "",
-    "street": "8824 S. Roberts Rd",
+    "street": "8824 S Roberts Rd",
     "city": "Hickory Hills",
     "state": "IL",
     "zip": "60457",
     "phone": "",
-    "products": ["eggs", "butter", "chicken"]
+    "products": ["eggs", "butter", "chicken"],
+    "lat": 41.730467,
+    "lon": -87.8209527
   },
   {
     "id": "e92e5634cd6b",
-    "name": "Jerry's Fruit Market",
+    "name": "Jerry's Fruit & Garden",
     "desc": "",
-    "street": "7901 N. Milwaukee",
+    "street": "7901 N Milwaukee Ave",
     "city": "Niles",
     "state": "IL",
     "zip": "60714",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam", "turkey"]
+    "products": ["eggs", "milk", "butter", "honey", "jam", "turkey"],
+    "lat": 42.024839,
+    "lon": -87.8143709
   },
   {
     "id": "91c89c443aab",
@@ -580,150 +684,178 @@
     "state": "IL",
     "zip": "60453",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "chicken", "honey"]
+    "products": ["eggs", "milk", "butter", "chicken", "honey"],
+    "lat": 41.7331222,
+    "lon": -87.7828887
   },
   {
     "id": "af8231dab244",
-    "name": "KD Market",
+    "name": "KD Market - Krystyna's Deli",
     "desc": "",
-    "street": "1102 S. Roselle Rd",
+    "street": "1102 S Roselle Rd",
     "city": "Schaumburg",
     "state": "IL",
     "zip": "60193",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam"]
+    "products": ["eggs", "milk", "butter", "honey", "jam"],
+    "lat": 42.0078498,
+    "lon": -88.0841102
   },
   {
     "id": "565888032702",
-    "name": "KD Market",
+    "name": "KD Market - Krystyna's Deli",
     "desc": "",
-    "street": "9500 W. Irving Park Road",
+    "street": "9500 Irving Park Rd",
     "city": "Schiller Park",
     "state": "IL",
     "zip": "60176",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam"]
+    "products": ["eggs", "milk", "butter", "honey", "jam"],
+    "lat": 41.954837,
+    "lon": -87.8663167
   },
   {
     "id": "99ddbbe5912d",
-    "name": "KD Market",
+    "name": "KD Market - Krystyna's Deli",
     "desc": "",
     "street": "835 W Dundee Rd",
     "city": "Wheeling",
     "state": "IL",
     "zip": "60090",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey"]
+    "products": ["eggs", "milk", "butter", "honey"],
+    "lat": 42.1382538,
+    "lon": -87.9397907
   },
   {
     "id": "db46fe42a50c",
-    "name": "KD Market",
+    "name": "KD Market - Krystyna's Deli",
     "desc": "",
     "street": "1046 Elmhurst Road",
     "city": "Mount Prospect",
     "state": "IL",
     "zip": "60056",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey"]
+    "products": ["eggs", "milk", "butter", "honey"],
+    "lat": 42.045776,
+    "lon": -87.9430461
   },
   {
     "id": "50be1fa8993c",
-    "name": "Kolatek",
+    "name": "Kolatek's Bakery & Deli",
     "desc": "",
-    "street": "2445 N. Harlem Avenue",
+    "street": "2445 N Harlem Ave",
     "city": "Chicago",
     "state": "IL",
     "zip": "60707",
     "phone": "",
-    "products": ["eggs", "milk", "butter"]
+    "products": ["eggs", "milk", "butter"],
+    "lat": 41.9249107,
+    "lon": -87.8081264
   },
   {
     "id": "da527fc9027c",
     "name": "Kordian's Market",
     "desc": "",
-    "street": "6332 W. Higgins Ave",
+    "street": "6332 W Higgins Ave",
     "city": "Chicago",
     "state": "IL",
     "zip": "60630",
     "phone": "",
-    "products": ["eggs", "butter", "chicken", "honey", "jam"]
+    "products": ["eggs", "butter", "chicken", "honey", "jam"],
+    "lat": 41.9762299,
+    "lon": -87.7886168
   },
   {
     "id": "c0f0353d55ea",
     "name": "Kurowski's Sausage Shop",
     "desc": "",
-    "street": "2976 N. Milwaukee Ave",
+    "street": "2976 N Milwaukee Ave",
     "city": "Chicago",
     "state": "IL",
     "zip": "60618",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "chicken"]
+    "products": ["eggs", "milk", "butter", "chicken"],
+    "lat": 41.9354071,
+    "lon": -87.720143
   },
   {
     "id": "d482d392eb8c",
     "name": "Lakeland Bakery & Deli",
     "desc": "",
-    "street": "19 S. Route 12",
+    "street": "19 S US-12",
     "city": "Fox Lake",
     "state": "IL",
     "zip": "60020",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 42.3955549,
+    "lon": -88.1858197
   },
   {
     "id": "b636d6ccc61e",
-    "name": "Lassak Deli",
+    "name": "Lassak Delicatessen",
     "desc": "",
-    "street": "8017 W. 103rd Street",
+    "street": "8017 W 103rd St",
     "city": "Palos Hills",
     "state": "IL",
     "zip": "60465",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "chicken", "honey", "jam", "turkey"]
+    "products": ["eggs", "milk", "butter", "chicken", "honey", "jam", "turkey"],
+    "lat": 41.7314427,
+    "lon": -87.9506234
   },
   {
     "id": "f5364b6c3061",
-    "name": "Little Polish Market",
+    "name": "Little Market - Polish Deli",
     "desc": "",
-    "street": "225 E Irving Park",
+    "street": "225 E Irving Park Rd",
     "city": "Roselle",
     "state": "IL",
     "zip": "60172",
     "phone": "",
-    "products": ["eggs", "milk", "chicken"]
+    "products": ["eggs", "milk", "chicken"],
+    "lat": 41.9835749,
+    "lon": -88.0767531
   },
   {
     "id": "f9058501683a",
     "name": "Malincho Euro Market",
     "desc": "",
-    "street": "1475 Lee Street",
+    "street": "1475 Lee St",
     "city": "Des Plaines",
     "state": "IL",
     "zip": "60018",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey"]
+    "products": ["eggs", "milk", "butter", "honey"],
+    "lat": 42.0262483,
+    "lon": -87.8955987
   },
   {
     "id": "99f725450110",
-    "name": "Market Place",
+    "name": "Market Place On Oakton",
     "desc": "",
-    "street": "4817 W Oakton Ave",
+    "street": "4817 Oakton St",
     "city": "Skokie",
     "state": "IL",
     "zip": "60077",
     "phone": "",
-    "products": ["eggs", "milk", "honey", "jam"]
+    "products": ["eggs", "milk", "honey", "jam"],
+    "lat": 42.0247518,
+    "lon": -87.7482642
   },
   {
     "id": "0e9483bff583",
     "name": "Milk & Honey Farmstead",
     "desc": "",
-    "street": "27451 West Illinois Route 176",
+    "street": "27451 W IL-176",
     "city": "Wauconda",
     "state": "IL",
     "zip": "60084",
     "phone": "",
-    "products": ["eggs", "milk"]
+    "products": ["eggs", "milk"],
+    "lat": 42.2613482,
+    "lon": -88.1676005
   },
   {
     "id": "402ea6808e83",
@@ -734,51 +866,61 @@
     "state": "IL",
     "zip": "60641",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey"]
+    "products": ["eggs", "milk", "butter", "honey"],
+    "lat": 41.9602992,
+    "lon": -87.7628812
   },
   {
     "id": "75ccff85f33c",
     "name": "Montrose Food Mart & Deli",
     "desc": "",
-    "street": "6601 W. Irving Park Rd",
+    "street": "6601 W Irving Park Rd",
     "city": "Chicago",
     "state": "IL",
     "zip": "60634",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam"]
+    "products": ["eggs", "milk", "butter", "honey", "jam"],
+    "lat": 41.9523031,
+    "lon": -87.7914382
   },
   {
     "id": "b6add11645d5",
-    "name": "Montrose Food Mart & Deli",
+    "name": "Montrose Market",
     "desc": "",
-    "street": "1731 W. Golf Road",
+    "street": "1731 W Golf Rd",
     "city": "Mount Prospect",
     "state": "IL",
     "zip": "60056",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam"]
+    "products": ["eggs", "milk", "butter", "honey", "jam"],
+    "lat": 42.0477802,
+    "lon": -87.9622869
   },
   {
     "id": "e63ad57af78e",
     "name": "Morse Fresh Market",
     "desc": "",
-    "street": "1430 W. Morse Ave",
+    "street": "1430 W Morse Ave",
     "city": "Chicago",
     "state": "IL",
     "zip": "60626",
     "phone": "",
-    "products": ["eggs", "honey"]
+    "products": ["eggs", "honey"],
+    "lat": 42.0080147,
+    "lon": -87.667208
   },
   {
     "id": "e8cb10620301",
-    "name": "Mundelein Deli",
+    "name": "Mundelein Polish Deli",
     "desc": "",
-    "street": "1460 Townline Road",
+    "street": "1460 Townline Rd",
     "city": "Mundelein",
     "state": "IL",
     "zip": "60060",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam"]
+    "products": ["eggs", "milk", "butter", "honey", "jam"],
+    "lat": 42.2410781,
+    "lon": -87.9797424
   },
   {
     "id": "4ff8542af1b9",
@@ -789,73 +931,87 @@
     "state": "IL",
     "zip": "60133",
     "phone": "",
-    "products": ["eggs", "milk", "jam"]
+    "products": ["eggs", "milk", "jam"],
+    "lat": 41.9779907,
+    "lon": -88.135854
   },
   {
     "id": "cfbf452b854d",
-    "name": "Naperville Market",
+    "name": "Garden Fresh Market",
     "desc": "",
-    "street": "955 W. 75th Street",
+    "street": "955 W 75th St",
     "city": "Naperville",
     "state": "IL",
     "zip": "60565",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey"]
+    "products": ["eggs", "milk", "butter", "honey"],
+    "lat": 41.7498403,
+    "lon": -88.1653015
   },
   {
     "id": "17850d335caa",
-    "name": "Niles Deli",
+    "name": "Niles Polish Deli",
     "desc": "",
-    "street": "8705 N. Milwaukee Ave",
+    "street": "8705 N Milwaukee Ave",
     "city": "Niles",
     "state": "IL",
     "zip": "60714",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 42.0388561,
+    "lon": -87.8250215
   },
   {
     "id": "4581e7c30659",
     "name": "Palos Deli & Liquors",
     "desc": "",
-    "street": "10650 South Roberts Road",
+    "street": "10650 S Roberts Rd",
     "city": "Palos Hills",
     "state": "IL",
     "zip": "60465",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "chicken"]
+    "products": ["eggs", "milk", "butter", "chicken"],
+    "lat": 41.697035,
+    "lon": -87.8175558
   },
   {
     "id": "9cc68eb98174",
     "name": "Pete’s Fresh Market",
     "desc": "",
-    "street": "880 Roosevelt Road",
+    "street": "880 Roosevelt Rd",
     "city": "Glen Ellyn",
     "state": "IL",
     "zip": "60137",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.8606935,
+    "lon": -88.049755
   },
   {
     "id": "465de37d2627",
     "name": "Pete’s Fresh Market",
     "desc": "",
-    "street": "10280 S. Harlem Ave",
+    "street": "10280 S Harlem Ave",
     "city": "Bridgeview",
     "state": "IL",
     "zip": "60455",
     "phone": "",
-    "products": ["eggs", "milk", "butter"]
+    "products": ["eggs", "milk", "butter"],
+    "lat": 41.7049871,
+    "lon": -87.8005771
   },
   {
     "id": "f936e245a4bd",
     "name": "Pete’s Fresh Market",
     "desc": "",
-    "street": "2526 W. Cermak Road",
+    "street": "2526 W Cermak Rd",
     "city": "Chicago",
     "state": "IL",
     "zip": "60608",
     "phone": "",
-    "products": ["eggs", "milk", "butter"]
+    "products": ["eggs", "milk", "butter"],
+    "lat": 41.8533266,
+    "lon": -87.6896396
   },
   {
     "id": "b1df3b5bab22",
@@ -866,29 +1022,35 @@
     "state": "IL",
     "zip": "60439",
     "phone": "",
-    "products": ["eggs", "milk", "butter"]
+    "products": ["eggs", "milk", "butter"],
+    "lat": 41.6608523,
+    "lon": -88.0012687
   },
   {
     "id": "d77887763e37",
     "name": "Pete’s Fresh Market",
     "desc": "",
-    "street": "259 Lake Street",
+    "street": "259 Lake St",
     "city": "Oak Park",
     "state": "IL",
     "zip": "60302",
     "phone": "",
-    "products": ["eggs", "milk", "butter"]
+    "products": ["eggs", "milk", "butter"],
+    "lat": 41.6608523,
+    "lon": -88.0012687
   },
   {
     "id": "0bee53784eea",
     "name": "Pete’s Fresh Market",
     "desc": "",
-    "street": "17w675 Roosevelt Road",
+    "street": "17w675 Roosevelt Rd",
     "city": "Oakbrook Terrace",
     "state": "IL",
     "zip": "60181",
     "phone": "",
-    "products": ["eggs", "milk", "butter"]
+    "products": ["eggs", "milk", "butter"],
+    "lat": 41.8589681,
+    "lon": -87.9735483
   },
   {
     "id": "486c8acd3668",
@@ -899,40 +1061,48 @@
     "state": "IL",
     "zip": "60189",
     "phone": "",
-    "products": ["eggs", "milk", "butter"]
+    "products": ["eggs", "milk", "butter"],
+    "lat": 41.8310397,
+    "lon": -88.0995486
   },
   {
     "id": "1f35de9275fc",
     "name": "Pete’s Fresh Market",
     "desc": "",
-    "street": "840 Plainfield Road",
+    "street": "840 Plainfield Rd",
     "city": "Willowbook",
     "state": "IL",
     "zip": "60527",
     "phone": "",
-    "products": ["eggs", "milk", "butter"]
+    "products": ["eggs", "milk", "butter"],
+    "lat": 41.762672,
+    "lon": -87.9437615
   },
   {
     "id": "ed992a5e2be0",
     "name": "Pete’s Fresh Market",
     "desc": "",
-    "street": "3720 W. 95th Street",
+    "street": "3720 W 95th St",
     "city": "Evergreen Park",
     "state": "IL",
     "zip": "60805",
     "phone": "",
-    "products": ["eggs", "milk", "butter"]
+    "products": ["eggs", "milk", "butter"],
+    "lat": 41.7210341,
+    "lon": -87.7148146
   },
   {
     "id": "0873e2a3212a",
-    "name": "Polish Delicatessen Inc",
+    "name": "Polish Delicatessen",
     "desc": "",
-    "street": "542 E. North Ave",
+    "street": "542 E North Ave",
     "city": "Glendale Hieights",
     "state": "IL",
     "zip": "60139",
     "phone": "",
-    "products": ["eggs", "milk"]
+    "products": ["eggs", "milk"],
+    "lat": 41.9044913,
+    "lon": -88.0649398
   },
   {
     "id": "d2ebb8a4e991",
@@ -943,40 +1113,48 @@
     "state": "IN",
     "zip": "46373",
     "phone": "",
-    "products": ["eggs", "butter", "chicken", "jam"]
+    "products": ["eggs", "butter", "chicken", "jam"],
+    "lat": 41.4278444,
+    "lon": -87.4404473
   },
   {
     "id": "024f724bfc9d",
     "name": "Produce World",
     "desc": "",
-    "street": "9325 West Lawrence",
+    "street": "9325 W Lawrence Ave",
     "city": "Norridge",
     "state": "IL",
     "zip": "60706",
     "phone": "",
-    "products": ["eggs", "butter", "honey", "jam"]
+    "products": ["eggs", "butter", "honey", "jam"],
+    "lat": 41.9655571,
+    "lon": -87.8357905
   },
   {
     "id": "3877756a7194",
     "name": "Pulaski Polish Deli & Bakery",
     "desc": "",
-    "street": "7141 W. Addison St",
+    "street": "7143 W Addison St",
     "city": "Chicago",
     "state": "IL",
     "zip": "60634",
     "phone": "",
-    "products": ["eggs", "butter", "chicken", "honey"]
+    "products": ["eggs", "butter", "chicken", "honey"],
+    "lat": 41.9450029,
+    "lon": -87.8050912
   },
   {
     "id": "da0dc4cd41cc",
     "name": "Rich's Deli",
     "desc": "",
-    "street": "857 N. Western Ave",
+    "street": "857 N Western Ave",
     "city": "Chicago",
     "state": "IL",
     "zip": "60622",
     "phone": "",
-    "products": ["eggs", "milk"]
+    "products": ["eggs", "milk"],
+    "lat": 41.897412,
+    "lon": -87.6868015
   },
   {
     "id": "5b10a308208d",
@@ -987,183 +1165,217 @@
     "state": "IL",
     "zip": "60706",
     "phone": "",
-    "products": ["eggs", "butter", "chicken", "honey"]
+    "products": ["eggs", "butter", "chicken", "honey"],
+    "lat": 41.96625415348518,
+    "lon": -87.80657361835557
   },
   {
     "id": "4ec21fe0c89a",
     "name": "Mariano's",
     "desc": "",
-    "street": "802 E. Northwest Highway",
+    "street": "802 E Northwest Hwy",
     "city": "Arlington Heights",
     "state": "IL",
     "zip": "60004",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 42.08043240275584, 
+    "lon": -87.97299684121542
   },
   {
     "id": "42f0176a8cd0",
     "name": "Mariano's",
     "desc": "",
-    "street": "3025 E. New York St",
-    "city": "Auroroa",
+    "street": "3025 E New York St",
+    "city": "Aurora",
     "state": "IL",
     "zip": "60504",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.758029383391,
+    "lon": -88.2411854137665
   },
   {
     "id": "4178f66c33d5",
     "name": "Mariano's",
     "desc": "",
-    "street": "2999 Waukegan Road",
+    "street": "2999 Waukegan Rd",
     "city": "Bannockburn",
     "state": "IL",
     "zip": "60015",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 42.20239056338736, 
+    "lon": -87.86272491901791
   },
   {
     "id": "25fc293c311e",
     "name": "Mariano's",
     "desc": "",
-    "street": "333 E Benton Place",
+    "street": "333 E Benton Pl",
     "city": "Chicago",
     "state": "IL",
     "zip": "60601",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.88533596794365, 
+    "lon": -87.61892365383399
   },
   {
     "id": "384bb967472c",
     "name": "Mariano's",
     "desc": "",
-    "street": "144 Gary Ave",
+    "street": "144 S Gary Ave",
     "city": "Bloomingdale",
     "state": "IL",
     "zip": "60108",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.95152990698262, 
+    "lon": -88.12261617899881
   },
   {
     "id": "977520565d25",
     "name": "Mariano's",
     "desc": "",
-    "street": "3145 S. Ashland Ave",
+    "street": "3145 S Ashland Ave",
     "city": "Chicago",
     "state": "IL",
     "zip": "60608",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.83599807565211, 
+    "lon": -87.66361480450466
   },
   {
     "id": "73e5bb4c2c90",
     "name": "Mariano's",
     "desc": "",
-    "street": "3030 North Broadway",
+    "street": "3030 N Broadway",
     "city": "Chicago",
     "state": "IL",
     "zip": "60657",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.9373426699349, 
+    "lon": -87.64477386829599
   },
   {
     "id": "691f68e23523",
     "name": "Mariano's",
     "desc": "",
-    "street": "3857 South Dr. Martin Luther King",
+    "street": "3857 S Martin Luther King Dr",
     "city": "Chicago",
     "state": "IL",
     "zip": "60653",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.824605284883084, 
+    "lon": -87.61607037266207
   },
   {
     "id": "41847a988d30",
     "name": "Mariano's",
     "desc": "",
-    "street": "2112 N. Ashland",
+    "street": "2112 N Ashland Ave",
     "city": "Chicago",
     "state": "IL",
     "zip": "60614",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.920829337771835, 
+    "lon": -87.66910869253489
   },
   {
     "id": "6a9581a9ebc7",
     "name": "Mariano's",
     "desc": "",
-    "street": "450 W. Half Day Road",
+    "street": "450 W Half Day Road",
     "city": "Buffalo Grove",
     "state": "IL",
     "zip": "60089",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 42.19821412059787, 
+    "lon": -87.9680204783579
   },
   {
     "id": "4bb7b56fc702",
     "name": "Mariano's",
     "desc": "",
-    "street": "105 Northwest Highway",
+    "street": "105 Northwest Hwy",
     "city": "Crystal Lake",
     "state": "IL",
     "zip": "60014",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 42.225085203318024, 
+    "lon": -88.32445194319767
   },
   {
     "id": "f1f26bda831b",
     "name": "Mariano's",
     "desc": "",
-    "street": "10 E. Golf Road",
+    "street": "10 E Golf Rd",
     "city": "Des Plaines",
     "state": "IL",
     "zip": "60016",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 42.050645860836525, 
+    "lon": -87.92023211585912
   },
   {
     "id": "cb680fb7171d",
     "name": "Mariano's",
     "desc": "",
-    "street": "5201 N. Sheridan Road",
+    "street": "5201 N Sheridan Rd",
     "city": "Chicago",
     "state": "IL",
     "zip": "60640",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.97663173661035, 
+    "lon": -87.65484191381303
   },
   {
     "id": "d2c335d904d0",
     "name": "Mariano's",
     "desc": "",
-    "street": "678 N. York Street",
+    "street": "678 N York St",
     "city": "Elmhurst",
     "state": "IL",
     "zip": "60126",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.920605527242316, 
+    "lon": -87.9406057172816
   },
   {
     "id": "a7bab630f627",
     "name": "Mariano's",
     "desc": "",
-    "street": "2559 West 95th Street",
+    "street": "2559 W 95th St",
     "city": "Evergreen Park",
     "state": "IL",
     "zip": "60805",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.71976311770129, 
+    "lon": -87.68790498613045
   },
   {
     "id": "e491a19d401a",
     "name": "Mariano's",
     "desc": "",
-    "street": "21001 S. LaGrange Rd",
+    "street": "21001 South La Grange Road",
     "city": "Frankfort",
     "state": "IL",
     "zip": "60423",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.508753146094016, 
+    "lon": -87.84776497989589
   },
   {
     "id": "5a5786cdf4d9",
@@ -1174,7 +1386,9 @@
     "state": "IL",
     "zip": "60025",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 42.05608488198207, 
+    "lon": -87.7974505817752
   },
   {
     "id": "4a10cbb53242",
@@ -1185,7 +1399,9 @@
     "state": "IL",
     "zip": "60062",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 42.11107836894372, 
+    "lon": -87.87255700925397
   },
   {
     "id": "f73ca1fb1491",
@@ -1196,73 +1412,87 @@
     "state": "IL",
     "zip": "60031",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 42.38345106278766, 
+    "lon": -87.97084483681023
   },
   {
     "id": "1ce9f5b5460f",
     "name": "Mariano's",
     "desc": "",
-    "street": "7401 W. Lawrence Ave",
+    "street": "7401 W Lawrence Ave",
     "city": "Harwood Heights",
     "state": "IL",
     "zip": "60706",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.96555020705454, 
+    "lon": -87.8128245681277
   },
   {
     "id": "da0b45ba625d",
     "name": "Mariano's",
     "desc": "",
-    "street": "2575 W Golf Road",
+    "street": "2575 W Golf Rd",
     "city": "Hoffman Estates",
     "state": "IL",
     "zip": "60169",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 42.045340062977836, 
+    "lon": -88.14346252226925
   },
   {
     "id": "1496df8a6540",
     "name": "Mariano's",
     "desc": "",
-    "street": "5353 N. Elston",
+    "street": "5353 N Elston Ave",
     "city": "Chicago",
     "state": "IL",
     "zip": "60630",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.979513022858995, 
+    "lon": -87.75750071105153
   },
   {
     "id": "647bc4d835ee",
     "name": "Mariano's",
     "desc": "",
-    "street": "1350 East Route 22",
+    "street": "1350 E W State Rte 22",
     "city": "Lake Zurich",
     "state": "IL",
     "zip": "60047",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 42.198531695900925, 
+    "lon": -88.06045900521747
   },
   {
     "id": "8cf6cce742a7",
     "name": "Mariano's",
     "desc": "",
-    "street": "345 W Roosevelt Road",
+    "street": "345 W Roosevelt Rd",
     "city": "Lombard",
     "state": "IL",
     "zip": "60148",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.85836945148628, 
+    "lon": -88.02518048803331
   },
   {
     "id": "afc61f0e77ab",
     "name": "Mariano's",
     "desc": "",
-    "street": "1300 S. Naper Boulevard",
+    "street": "1300 S Naper Blvd",
     "city": "Naperville",
     "state": "IL",
     "zip": "60540",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.74971229383021, 
+    "lon": -88.11313841995091
   },
   {
     "id": "c9c6423774cf",
@@ -1273,7 +1503,9 @@
     "state": "IL",
     "zip": "60610",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.9081020401934, 
+    "lon":-87.64583481860018
   },
   {
     "id": "6931042b6dcb",
@@ -1284,29 +1516,35 @@
     "state": "IL",
     "zip": "60062",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 42.13962031879112, 
+    "lon": -87.79426174618786
   },
   {
     "id": "383a46d1e486",
     "name": "Mariano's",
     "desc": "",
-    "street": "1822 Willow Road",
+    "street": "1822 Willow Rd",
     "city": "Northfield",
     "state": "IL",
     "zip": "60093",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 42.10030789249267, 
+    "lon": -87.77130567508758
   },
   {
     "id": "f99ef66554b1",
     "name": "Mariano's",
     "desc": "",
-    "street": "11000 S. Cicero Ave",
+    "street": "11000 S Cicero Ave",
     "city": "Oak Lawn",
     "state": "IL",
     "zip": "60453",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.69286314959227, 
+    "lon": -87.74147793620172
   },
   {
     "id": "207bd94c7089",
@@ -1317,128 +1555,152 @@
     "state": "IL",
     "zip": "60462",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.633648403940015, 
+    "lon": -87.85215646100595
   },
   {
     "id": "c98935b00a61",
     "name": "Mariano's",
     "desc": "",
-    "street": "545 N. Hicks Road",
+    "street": "545 N Hicks Rd",
     "city": "Palatine",
     "state": "IL",
     "zip": "60067",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 42.11992750539985, 
+    "lon": -88.03182267748036
   },
   {
     "id": "5a3d84217e52",
     "name": "Mariano's",
     "desc": "",
-    "street": "1900 S. Cumberland",
+    "street": "1900 S Cumberland Ave",
     "city": "Park Ridge",
     "state": "IL",
     "zip": "60068",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.987526638508506, 
+    "lon": -87.83760672388709
   },
   {
     "id": "0e616a04b89b",
     "name": "Mariano's",
     "desc": "",
-    "street": "1800 West Lawrence Ave",
+    "street": "1800 W Lawrence Ave",
     "city": "Chicago",
     "state": "IL",
     "zip": "60640",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.96940863088654, 
+    "lon": -87.67489790639635
   },
   {
     "id": "60284a62f1ff",
     "name": "Mariano's",
     "desc": "",
-    "street": "950 Brock Forest Avenue",
+    "street": "950 Brock Forest Ave",
     "city": "Shorewood",
     "state": "IL",
     "zip": "60404",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.53706848215995, 
+    "lon": -88.19700954366307
   },
   {
     "id": "480be8e86385",
     "name": "Mariano's",
     "desc": "",
-    "street": "3358 West Touhy Ave",
+    "street": "3358 W Touhy Ave",
     "city": "Skokie",
     "state": "IL",
     "zip": "60076",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 42.01261804201973, 
+    "lon": -87.71417435291845
   },
   {
     "id": "ecd8ae4a84b3",
     "name": "Mariano's",
     "desc": "",
-    "street": "1615 S Clark Street",
+    "street": "1615 S Clark St",
     "city": "Chicago",
     "state": "IL",
     "zip": "60616",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.859340130872575, 
+    "lon": -87.62962406912793
   },
   {
     "id": "89d250bd5082",
     "name": "Mariano's",
     "desc": "",
-    "street": "2021 W. Chicago",
+    "street": "2021 W Chicago Ave",
     "city": "Chicago",
     "state": "IL",
     "zip": "60622",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.895763478525325, 
+    "lon": -87.67832956429037
   },
   {
     "id": "172e1d16c925",
     "name": "Mariano's",
     "desc": "",
-    "street": "1720 N. Milwaukee Ave",
+    "street": "1720 N Milwaukee Ave",
     "city": "Vernon Hills",
     "state": "IL",
     "zip": "60061",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 42.2569139870967, 
+    "lon": -87.95094548111783
   },
   {
     "id": "8232ebe91a79",
     "name": "Mariano's",
     "desc": "",
-    "street": "40 S. Halsted",
+    "street": "40 S Halsted St",
     "city": "Chicago",
     "state": "IL",
     "zip": "60661",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.88069709604789, 
+    "lon": -87.64756494231203
   },
   {
     "id": "05cc331cab99",
     "name": "Mariano's",
     "desc": "",
-    "street": "3020 Wolf Road",
+    "street": "3020 Wolf Rd",
     "city": "Westchester",
     "state": "IL",
     "zip": "60154",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.83544882145105, 
+    "lon": -87.89951844848977
   },
   {
     "id": "e628040afb17",
     "name": "Mariano's",
     "desc": "",
-    "street": "3350 N. Western Ave",
+    "street": "3350 N Western Ave",
     "city": "Chicago",
     "state": "IL",
     "zip": "60618",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.94245112380806, 
+    "lon": -87.68996330202334
   },
   {
     "id": "8049914dc284",
@@ -1449,62 +1711,74 @@
     "state": "IL",
     "zip": "60558",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.80400207501388, 
+    "lon": -87.89147880148705
   },
   {
     "id": "8dad5acc9876",
     "name": "Mariano's",
     "desc": "",
-    "street": "150 W. 63rd Street",
+    "street": "150 W 63rd St",
     "city": "Westmont",
     "state": "IL",
     "zip": "60559",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.775389480899804, 
+    "lon": -87.9787251315478
   },
   {
     "id": "3363108b05bf",
     "name": "Mariano's",
     "desc": "",
-    "street": "625 S. Main Street",
+    "street": "625 S Main St",
     "city": "Wheaton",
     "state": "IL",
     "zip": "60187",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.85954132158144, 
+    "lon": -88.10326908042906
   },
   {
     "id": "6071bc739eda",
     "name": "Sam's Farmer's Market",
     "desc": "",
-    "street": "1045 East Oakton",
+    "street": "1045 E Oakton St",
     "city": "Des PLaines",
     "state": "IL",
     "zip": "60018",
     "phone": "",
-    "products": ["eggs", "milk", "butter"]
+    "products": ["eggs", "milk", "butter"],
+    "lat": 42.02259439109107, 
+    "lon": -87.89812211986545
   },
   {
     "id": "46d9839e3b9d",
     "name": "Shop & Save Market",
     "desc": "",
-    "street": "5829 South Archer Ave",
+    "street": "5829 S Archer Ave",
     "city": "Chicago",
     "state": "IL",
     "zip": "60638",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "chicken"]
+    "products": ["eggs", "milk", "butter", "chicken"],
+    "lat": 41.795677247730886, 
+    "lon": -87.75958617299018
   },
   {
     "id": "9785b4c0083a",
     "name": "Shop & Save Market",
     "desc": "",
-    "street": "8847 S. Harlem",
+    "street": "8847 S Harlem Ave",
     "city": "Bridgeview",
     "state": "IL",
     "zip": "60455",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam"]
+    "products": ["eggs", "milk", "butter", "honey", "jam"],
+    "lat": 41.730314859960885, 
+    "lon": -87.7975036613334
   },
   {
     "id": "27ad18fcb41c",
@@ -1515,128 +1789,139 @@
     "state": "IL",
     "zip": "60016",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam"]
+    "products": ["eggs", "milk", "butter", "honey", "jam"],
+    "lat": 42.04297779447143, 
+    "lon": -87.88552478464678
   },
   {
     "id": "cdc917899b71",
     "name": "Shop & Save Market",
     "desc": "",
-    "street": "6312 N. Nagle Ave",
+    "street": "6312 N Nagle Ave",
     "city": "Chicago",
     "state": "IL",
     "zip": "60646",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "chicken"]
-  },
-  {
-    "id": "68c0909969de",
-    "name": "Smakowski's Deli",
-    "desc": "",
-    "street": "6744 W. Belmont",
-    "city": "Chicago",
-    "state": "IL",
-    "zip": "60634",
-    "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs", "milk", "butter", "chicken"],
+    "lat": 41.99621124069635, 
+    "lon": -87.7885354503152
   },
   {
     "id": "1d6cb08bbc6c",
     "name": "Smakowski's Deli",
     "desc": "",
-    "street": "1538 N. Rand Road",
+    "street": "1538 N Rand Rd",
     "city": "Palatine",
     "state": "IL",
     "zip": "60074",
     "phone": "",
-    "products": ["eggs", "milk", "butter"]
+    "products": ["eggs", "milk", "butter"],
+    "lat": 42.13294997061858, 
+    "lon": -88.01304814307404
   },
   {
     "id": "6d86e4588c2a",
-    "name": "Stefania's Deli",
+    "name": "Stefania's European Food Market",
     "desc": "",
-    "street": "5050 N. Cumberland",
+    "street": "5050 N Cumberland Ave",
     "city": "Norridge",
     "state": "IL",
     "zip": "60706",
     "phone": "",
-    "products": ["eggs", "milk", "honey"]
+    "products": ["eggs", "milk", "honey"],
+    "lat": 41.97159859636091, 
+    "lon": -87.83763319041925
   },
   {
     "id": "d2c196d4ac35",
     "name": "Szymanski Deli & Liquors",
     "desc": "",
-    "street": "6016 W. Irving Park Road",
+    "street": "6016 W Irving Park Rd",
     "city": "Chicago",
     "state": "IL",
     "zip": "60634",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.95327589563815, 
+    "lon": -87.77744359041988
   },
   {
     "id": "d6f1f6c33438",
     "name": "Ted's Fresh Market",
     "desc": "",
-    "street": "2840 W. Devon Ave",
+    "street": "2840 W Devon Ave",
     "city": "Chicago",
     "state": "IL",
     "zip": "60659",
     "phone": "",
-    "products": ["eggs", "milk", "butter"]
+    "products": ["eggs", "milk", "butter"],
+    "lat": 41.9977914834193, 
+    "lon": -87.70138823152296
   },
   {
     "id": "d6fe9084e3c8",
     "name": "Tony's Fresh Market",
     "desc": "",
-    "street": "1241 N. Rand Rd",
+    "street": "1241 N Rand Rd",
     "city": "Prospect Heights",
     "state": "IL",
     "zip": "60004",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 42.1005892612524, 
+    "lon": -87.9594931431764
   },
   {
     "id": "4c5d4c867671",
     "name": "Tony's Fresh Market",
     "desc": "",
-    "street": "5630 W. Belmont Ave",
+    "street": "5630 W Belmont Ave",
     "city": "Chicago",
     "state": "IL",
     "zip": "60634",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.939046697272346, 
+    "lon": -87.76814963152482
   },
   {
     "id": "260fdf3ce5eb",
     "name": "Tony's Fresh Market",
     "desc": "",
-    "street": "7111 Cermak Road",
+    "street": "7111 Cermak Rd",
     "city": "Berwyn",
     "state": "IL",
     "zip": "60402",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.84883283923997, 
+    "lon": -87.80055310243789
   },
   {
     "id": "e251f443fe9a",
     "name": "Tony's Fresh Market",
     "desc": "",
-    "street": "271 S. Bolingbrook Drive",
+    "street": "271 S Bolingbrook Dr",
     "city": "Bolingbrook",
     "state": "IL",
     "zip": "60440",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.69215424401838, 
+    "lon": -88.07028933153256
   },
   {
     "id": "c88a0df69920",
     "name": "Tony's Fresh Market",
     "desc": "",
-    "street": "8630 S. Harlem Ave",
+    "street": "8630 S Harlem Ave",
     "city": "Bridgeview",
     "state": "IL",
     "zip": "60455",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.73485163680987, 
+    "lon": -87.80015550208343
   },
   {
     "id": "d977a4ceb646",
@@ -1647,7 +1932,9 @@
     "state": "IL",
     "zip": "60459",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.75191641823283, 
+    "lon": -87.74547880785185
   },
   {
     "id": "69d2843d7978",
@@ -1658,29 +1945,35 @@
     "state": "IL",
     "zip": "60525",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.768748531780226, 
+    "lon": -87.88844706097788
   },
   {
     "id": "a13c1288200d",
     "name": "Tony's Fresh Market",
     "desc": "",
-    "street": "4137 N. Elston Ave",
+    "street": "4137 N Elston Ave",
     "city": "Chicago",
     "state": "IL",
     "zip": "60618",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.95614946040504, 
+    "lon": -87.72216574113068
   },
   {
     "id": "b7434c9d8c7a",
     "name": "Tony's Fresh Market",
     "desc": "",
-    "street": "3607 W. Fullerton Ave",
+    "street": "3607 W Fullerton Ave",
     "city": "Chicago",
     "state": "IL",
     "zip": "60647",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.92445050466357, 
+    "lon": -87.71740243152526
   },
   {
     "id": "16a4bc2a188a",
@@ -1691,40 +1984,48 @@
     "state": "IL",
     "zip": "60133",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 42.00837319337595, 
+    "lon": -88.14679500207484
   },
   {
     "id": "1a9d2580cb90",
     "name": "Tony's Fresh Market",
     "desc": "",
-    "street": "5233 N. Lincoln Ave",
+    "street": "5233 N Lincoln Ave",
     "city": "Chicago",
     "state": "IL",
     "zip": "60625",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.976815696942765, 
+    "lon": -87.69225933152357
   },
   {
     "id": "67784593ad47",
     "name": "Tony's Fresh Market",
     "desc": "",
-    "street": "2099 N. Mannheim Rd",
+    "street": "2099 N Mannheim Rd",
     "city": "Melrose Park",
     "state": "IL",
     "zip": "60160",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.91369520454223, 
+    "lon": -87.88273997876443
   },
   {
     "id": "cfb56ba82136",
     "name": "Tony's Fresh Market",
     "desc": "",
-    "street": "8900 N. Greenwood Ave",
+    "street": "8900 N Greenwood Ave",
     "city": "Niles",
     "state": "IL",
     "zip": "60714",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 42.04222167787033, 
+    "lon": -87.84227097876038
   },
   {
     "id": "f023284f518f",
@@ -1735,18 +2036,22 @@
     "state": "IL",
     "zip": "60586",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 41.56289018534322, 
+    "lon": -88.19846243767094
   },
   {
     "id": "070f8aa143ee",
     "name": "Tony's Fresh Market",
     "desc": "",
-    "street": "1241 N. Rand Rd",
+    "street": "1241 N Rand Rd",
     "city": "Prospect Heights",
     "state": "IL",
     "zip": "60004",
     "phone": "",
-    "products": ["eggs"]
+    "products": ["eggs"],
+    "lat": 42.100585778549735, 
+    "lon": -87.95949381372864
   },
   {
     "id": "518ef8f26101",
@@ -1757,7 +2062,9 @@
     "state": "IL",
     "zip": "60005",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey"]
+    "products": ["eggs", "milk", "butter", "honey"],
+    "lat": 42.05195379264094, 
+    "lon": -87.97690663152125
   },
   {
     "id": "157ed182c5a6",
@@ -1768,18 +2075,22 @@
     "state": "IL",
     "zip": "60202",
     "phone": "",
-    "products": ["eggs", "milk", "butter"]
+    "products": ["eggs", "milk", "butter"],
+    "lat": 42.03869858850296, 
+    "lon": -87.70039299041719
   },
   {
     "id": "f973dfbcef68",
     "name": "Valli Produce",
     "desc": "",
-    "street": "155 E. North Ave",
+    "street": "155 E North Ave",
     "city": "Glendale Heights",
     "state": "IL",
     "zip": "60139",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam"]
+    "products": ["eggs", "milk", "butter", "honey", "jam"],
+    "lat": 41.90102981060159, 
+    "lon": -88.08365549042153
   },
   {
     "id": "e594c4105c41",
@@ -1790,18 +2101,22 @@
     "state": "IL",
     "zip": "60194",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam"]
+    "products": ["eggs", "milk", "butter", "honey", "jam"],
+    "lat": 42.04389429172051, 
+    "lon": -88.08123147262597
   },
   {
     "id": "501e8d989dd8",
-    "name": "Fresh Farms",
+    "name": "Fresh Farms International Market",
     "desc": "",
-    "street": "20 South Milwaukee Ave",
+    "street": "20 S Milwaukee Ave",
     "city": "Wheeling",
     "state": "IL",
     "zip": "60090",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam"]
+    "products": ["eggs", "milk", "butter", "honey", "jam"],
+    "lat": 42.13898806127829, 
+    "lon": -87.90834234930956
   },
   {
     "id": "575803905612",
@@ -1812,7 +2127,9 @@
     "state": "IL",
     "zip": "60089",
     "phone": "",
-    "products": ["eggs", "milk", "butter"]
+    "products": ["eggs", "milk", "butter"],
+    "lat": 42.16926796749003, 
+    "lon": -87.92403370820418
   },
   {
     "id": "feeb3c48784b",
@@ -1823,7 +2140,9 @@
     "state": "IL",
     "zip": "60110",
     "phone": "",
-    "products": ["eggs", "milk", "butter"]
+    "products": ["eggs", "milk", "butter"],
+    "lat": 42.12021317014083, 
+    "lon": -88.33840420207132
   },
   {
     "id": "092648cac486",
@@ -1834,7 +2153,9 @@
     "state": "IL",
     "zip": "60051",
     "phone": "",
-    "products": ["eggs", "milk", "butter"]
+    "products": ["eggs", "milk", "butter"],
+    "lat": 42.32052572208016, 
+    "lon": -88.16782775482618
   }
 ]
 
