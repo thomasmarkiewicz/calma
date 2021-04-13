@@ -45,7 +45,7 @@ export const Products: FC = () => {
           const storeCoords = stores.map((s) => `${s.lon},${s.lat}`).join(";");
           console.log("storeCoords", storeCoords);
           const response = await fetch(
-            `http://router.project-osrm.org/route/v1/driving/${coords.longitude},${coords.latitude};${storeCoords}?overview=false`
+            `https://router.project-osrm.org/route/v1/driving/${coords.longitude},${coords.latitude};${storeCoords}?overview=false`
           )
             .then((response) => response.json())
             .then((data) => ({
