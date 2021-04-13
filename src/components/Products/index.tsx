@@ -1,4 +1,4 @@
-import React, { FC, useState, useRef, useEffect } from "react";
+import React, { FC, useState, useRef } from "react";
 import { Canvas } from "../Canvas";
 import { Logo } from "../Logo";
 import { Heading } from "../Heading";
@@ -7,19 +7,19 @@ import products from "../../data/products.json";
 import Locator from "../Locator";
 import stores from "../../data/stores.json";
 
+const chunk = (arr: Array<any>, size: number): Array<Array<any>> =>
+  Array.from({ length: Math.ceil(arr.length / size) }, (v, i) =>
+    arr.slice(i * size, i * size + size)
+  );
+
+const storeChunks = chunk(stores, 42);
+
 export const Products: FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [productId, setProductId] = useState("");
   const [storesWithDistance, setStoresWithDistance] = useState(stores);
   const locatorRef = useRef(null);
 
-  // useEffect(() => {
-  //   console.log("RUNNING");
-  //   if ((locatorRef?.current as any)?.coords) {
-  //     console.log("TM: calculating store distances");
-  //   }
-  // }, [(locatorRef?.current as any)?.coords]);
-  
   return (
     <Canvas
       css={{
@@ -42,18 +42,30 @@ export const Products: FC = () => {
         ref={locatorRef}
         calcDist={async (coords) => {
           console.log("TM: calculating store distances");
-          const storeCoords = stores.map((s) => `${s.lon},${s.lat}`).join(";");
-          console.log("storeCoords", storeCoords);
-          const response = await fetch(
-            `https://router.project-osrm.org/route/v1/driving/${coords.longitude},${coords.latitude};${storeCoords}?overview=false`
-          )
-            .then((response) => response.json())
-            .then((data) => ({
-              ...data,
-            }));
-          console.log("response:", response);
-          //setStoresWithDistance(storesWithDistance);
-          //console.log("DONE:", storesWithDistance);
+          // TODO: show spinner
+
+          let swd: Array<any> = [];
+          let responses: Array<Promise<any>> = [];
+
+          storeChunks.forEach(async (c) => {
+            const storeCoords = c.map((s) => `${s.lon},${s.lat}`).join(";");
+            responses.push(
+              fetch(
+                `http://router.project-osrm.org/table/v1/driving/${coords.longitude},${coords.latitude};${storeCoords}?sources=0&annotations=distance`
+              )
+                .then((response) => response.json())
+                .then((data) => {
+                  const zipped = data.distances[0]
+                    .slice(1, data.distances[0].length)
+                    .map((d: any, i: number) => ({ ...c[i], dist: d }));
+                  swd = [...swd, ...zipped];
+                  setStoresWithDistance(swd);
+                })
+            );
+          });
+
+          await Promise.all(responses);
+          console.log("TODO: hide spinner");
         }}
       />
       <Logo />

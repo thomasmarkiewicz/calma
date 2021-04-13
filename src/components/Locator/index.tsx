@@ -41,57 +41,43 @@ const Locator: FC<Props> = (args) => {
   } = args;
 
   useEffect(() => {
-    if (isOpen && coords) {
+    if (isOpen && coords && stores.length && !stores[0].dist) {
       calcDist(coords);
-
-      // console.log("TM: recalculating", storesWithProduct);
     }
-  }, [productId, isOpen, coords]);
+  }, [isOpen, coords, stores]);
 
   const locationButton = (): any =>
     !coords && isGeolocationAvailable /* && !isGeolocationEnabled  */ ? (
       <button
         onClick={() => {
           getLocation();
-          console.log("coords", coords);
         }}
       >
         Sort stores
       </button>
     ) : null;
 
-  const testButton = (): any => (
-    <button
-      onClick={() => {
-        getLocation();
-        console.log("coords", coords);
-      }}
-    >
-      Sort stores
-    </button>
-  );
-
   let product = null;
   let storesWithProduct = null;
-  let storesWithDistance = null;
   let storeList = null;
-
-  //if(!coords) getLocation();
 
   if (isOpen) {
     console.log("isGeolocationAvailable", isGeolocationAvailable);
     console.log("isGeolocationEnabled", isGeolocationEnabled);
 
     product = products.find((p) => p.id === productId);
-    storesWithProduct = stores.filter((s: any) => s.products.includes(productId));
-    storesWithDistance = storesWithProduct.map((s: any) => {});
+    storesWithProduct = stores
+      .filter((s: any) => s.products.includes(productId))
+      .sort((a: { dist: number }, b: { dist: number }) =>
+        a.dist > b.dist ? 1 : -1
+      );
     storeList = storesWithProduct.map((swp: any) => (
       <p key={swp.id}>
         <a
           href={`https://maps.google.com/?q=${swp.name}, ${swp.zip}`}
           target="_blank"
         >
-          {swp.name} - {swp.city}, {swp.state} ({swp.distance || 'n/a'})
+          {swp.name} - {swp.city}, {swp.state} ({swp.dist || "n/a"})
         </a>
       </p>
     ));
