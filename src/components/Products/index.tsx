@@ -51,7 +51,7 @@ export const Products: FC = () => {
             const storeCoords = c.map((s) => `${s.lon},${s.lat}`).join(";");
             responses.push(
               fetch(
-                `http://router.project-osrm.org/table/v1/driving/${coords.longitude},${coords.latitude};${storeCoords}?sources=0&annotations=distance`
+                `https://router.project-osrm.org/table/v1/driving/${coords.longitude},${coords.latitude};${storeCoords}?sources=0&annotations=distance`
               )
                 .then((response) => response.json())
                 .then((data) => {
