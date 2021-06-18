@@ -1,4 +1,4 @@
-import React, { FC, useState, useRef, useEffect } from "react";
+import React, { FC, useState, useEffect } from "react";
 import { Canvas } from "../Canvas";
 import { Logo } from "../Logo";
 import { Heading } from "../Heading";
@@ -8,12 +8,24 @@ import { Locator } from "../Locator";
 import stores from "../../data/stores.json";
 import { geolocated, geoPropTypes, GeolocatedProps } from "react-geolocated";
 
-const chunk = (arr: Array<any>, size: number): Array<Array<any>> =>
-  Array.from({ length: Math.ceil(arr.length / size) }, (v, i) =>
-    arr.slice(i * size, i * size + size)
-  );
+function deg2rad(deg: number): number {
+  return deg * (Math.PI / 180);
+}
 
-const storeChunks = chunk(stores, 42);
+function getDistanceFromLatLonInKm(lat1: number, lon1: number, lat2: number, lon2: number): number {
+  var R = 6371; // Radius of the earth in km
+  var dLat = deg2rad(lat2 - lat1); // deg2rad below
+  var dLon = deg2rad(lon2 - lon1);
+  var a =
+    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+    Math.cos(deg2rad(lat1)) *
+      Math.cos(deg2rad(lat2)) *
+      Math.sin(dLon / 2) *
+      Math.sin(dLon / 2);
+  var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  var d = R * c; // Distance in km
+  return d;
+}
 
 const ProductsBase: FC<GeolocatedProps> = (args) => {
   const { isGeolocationAvailable, isGeolocationEnabled, coords } = args;
@@ -24,24 +36,16 @@ const ProductsBase: FC<GeolocatedProps> = (args) => {
   useEffect(() => {
     if (coords && stores.length) {
       console.log("re-calculating distances");
-      let swd: Array<any> = [];
-      let responses: Array<Promise<any>> = [];
-      storeChunks.forEach(async (c) => {
-        const storeCoords = c.map((s) => `${s.lon},${s.lat}`).join(";");
-        responses.push(
-          fetch(
-            `https://router.project-osrm.org/table/v1/driving/${coords.longitude},${coords.latitude};${storeCoords}?sources=0&annotations=distance`
-          )
-            .then((response) => response.json())
-            .then((data) => {
-              const zipped = data.distances[0]
-                .slice(1, data.distances[0].length)
-                .map((d: any, i: number) => ({ ...c[i], dist: d }));
-              swd = [...swd, ...zipped];
-              setStoresWithDistance(swd);
-            })
-        );
-      });
+      const storesWithDist = stores.map((s) => ({
+        ...s,
+        dist: getDistanceFromLatLonInKm(
+          s.lat,
+          s.lon,
+          coords.latitude,
+          coords.longitude
+        ),
+      }));
+      setStoresWithDistance(storesWithDist);
     }
   }, [coords, stores]);
 
