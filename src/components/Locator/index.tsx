@@ -18,53 +18,21 @@ const customStyles = {
   },
 };
 
-interface Props extends GeolocatedProps {
+interface Props {
   productId: string;
   isOpen: boolean;
   close: () => void;
-  getLocation: () => void;
-  calcDist: (coords: any) => void;
   stores: any;
 }
 
-const Locator: FC<Props> = (args) => {
-  const {
-    productId,
-    isOpen,
-    close,
-    isGeolocationAvailable,
-    isGeolocationEnabled,
-    getLocation,
-    coords,
-    calcDist,
-    stores,
-  } = args;
-
-  useEffect(() => {
-    if (isOpen && coords && stores.length && !stores[0].dist) {
-      calcDist(coords);
-    }
-  }, [isOpen, coords, stores]);
-
-  const locationButton = (): any =>
-    !coords && isGeolocationAvailable /* && !isGeolocationEnabled  */ ? (
-      <button
-        onClick={() => {
-          getLocation();
-        }}
-      >
-        Sort stores
-      </button>
-    ) : null;
+export const Locator: FC<Props> = (args) => {
+  const { productId, isOpen, close, stores } = args;
 
   let product = null;
   let storesWithProduct = null;
   let storeList = null;
 
   if (isOpen) {
-    console.log("isGeolocationAvailable", isGeolocationAvailable);
-    console.log("isGeolocationEnabled", isGeolocationEnabled);
-
     product = products.find((p) => p.id === productId);
     storesWithProduct = stores
       .filter((s: any) => s.products.includes(productId))
@@ -82,6 +50,8 @@ const Locator: FC<Props> = (args) => {
       </p>
     ));
   }
+  
+  const src = product?.images[0] ? require(`../../img/${product?.images[0]}`) : undefined;
 
   return (
     <div>
@@ -92,11 +62,16 @@ const Locator: FC<Props> = (args) => {
       >
         <h2>{product?.name}</h2>
 
-        {locationButton()}
-
-        <p>
-          Your location: {coords?.latitude}, {coords?.longitude}
-        </p>
+        <img
+          src={src}
+          alt={product?.name}
+          css={{
+            cursor: "pointer",
+            verticalAlign: "middle",
+            borderStyle: "none",
+            height: "200px",
+          }}
+        />
 
         {storeList}
 
@@ -119,11 +94,3 @@ const Locator: FC<Props> = (args) => {
     </div>
   );
 };
-
-export default geolocated({
-  positionOptions: {
-    enableHighAccuracy: false,
-  },
-  userDecisionTimeout: 5000,
-  suppressLocationOnMount: true,
-})(Locator);

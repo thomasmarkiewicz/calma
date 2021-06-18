@@ -15,6 +15,11 @@ export const App = () => (
         background-color: transparent
       }
       a:active, a:hover { outline-width: 0 }
+      figcaption {
+        font-style: italic;
+        padding: 2px;
+        text-align: center;
+      }
     `}/>
     <ThemeProvider theme={AppTheme}>
       <Scaffold>

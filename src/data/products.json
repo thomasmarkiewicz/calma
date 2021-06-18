@@ -3,22 +3,50 @@
     "id": "eggs",
     "name": "Eggs",
     "desc": "",
-    "options": ["Medium", "Large", "Extra Large"],
-    "images": ["p1.jpg"]
+    "options": ["Medium", "Large", "Extra Large", "Jumbo"],
+    "images": ["calma_eggs_medium.jpg", "calma_eggs_large.jpg", "calma_eggs_extra_large.jpg", "calma_eggs_jumbo.jpg"]
   },
   {
     "id": "milk",
     "name": "Milk",
     "desc": "",
     "options": [],
-    "images": ["p2.jpg"]
+    "images": ["calma_milk_whole.jpg"]
   },
   {
     "id": "butter",
     "name": "Butter",
     "desc": "",
     "options": [],
-    "images": ["p3.jpg"]
+    "images": ["calma_butter.jpg"]
+  },
+  {
+    "id": "honey",
+    "name": "Honey",
+    "desc": "",
+    "options": [],
+    "images": ["calma_honey.jpg"]
+  },
+  {
+    "id": "jam",
+    "name": "Jam",
+    "desc": "",
+    "options": [],
+    "images": ["calma_jam_apricot.jpg", "calma_jam_black_rasberry.jpg", "calma_jam_strawberry.jpg", "calma_jam_gooseberry.jpg", "calma_jam_apple.jpg", "calma_jam_sour_cherry.jpg", "calma_jam_plum.jpg"]
+  },
+  {
+    "id": "buttermilk",
+    "name": "Buttermilk",
+    "desc": "",
+    "options": [],
+    "images": ["calma_buttermilk.jpg"]
+  },
+  {
+    "id": "goatmilk",
+    "name": "Goat Milk",
+    "desc": "",
+    "options": [],
+    "images": ["calma_goat_milk.jpg"]
   },
   {
     "id": "chicken",
@@ -33,19 +61,5 @@
     "desc": "",
     "options": [],
     "images": ["p5.jpg"]
-  },
-  {
-    "id": "honey",
-    "name": "Honey",
-    "desc": "",
-    "options": [],
-    "images": ["p6.jpg"]
-  },
-  {
-    "id": "jam",
-    "name": "Jam",
-    "desc": "",
-    "options": [],
-    "images": ["p7.jpg"]
   }
 ]
