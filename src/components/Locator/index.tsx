@@ -157,7 +157,7 @@ export const LocatorBase: FC<Props> = (args) => {
   }, [storesWithDistance, productId]);
 
   const locationButton = (): any =>
-    !coords && isGeolocationAvailable /* && !isGeolocationEnabled */ ? (
+    !coords && isGeolocationAvailable && isGeolocationEnabled ? (
       <div>
         <button
           onClick={() => {
@@ -182,7 +182,7 @@ export const LocatorBase: FC<Props> = (args) => {
         <p>Stores in alphabetical order:</p>
       </div>
     ) : (
-      <p>Stores nearest your current location:</p>
+      <p>Nearest stores:</p>
     );
 
   const product = products.find((p) => p.id === productId);
@@ -219,13 +219,13 @@ export const LocatorBase: FC<Props> = (args) => {
           // maxWidth: "600px",
           zIndex: 100,
           position: "fixed",
-          bottom: 0,
+          top: 8,
           left: 0,
           right: 0,
           width: "auto",
           maxWidth: "500px",
           margin: "0 auto",
-          height: "90vh",
+          height: "95vh",
         },
       }}
     >
@@ -234,7 +234,7 @@ export const LocatorBase: FC<Props> = (args) => {
           position: "relative",
           margin: "0 auto",
           borderRadius: "12px 12px 0 0",
-          height: "90vh",
+          height: "95vh",
         }}
       >
         <div
@@ -244,7 +244,7 @@ export const LocatorBase: FC<Props> = (args) => {
             left: 0,
             right: 0,
             overflow: "auto",
-            height: "82vh",
+            height: "95vh",
           }}
         >
           <h2>{product?.name}</h2>
@@ -257,18 +257,18 @@ export const LocatorBase: FC<Props> = (args) => {
         <div
           css={{
             position: "absolute",
-            bottom: 0,
-            left: "35%",
-            right: "35%",
-            height: "60px",
+            left: "auto",
+            right: "8px",
+            bottom: "8px",
+
           }}
         >
           <button
             onClick={close}
             css={{
               color: "#000 !important",
-              backgroundColor: "#dbedfc !important",
-              padding: "16px 48px !important",
+              backgroundColor: "#14e631 !important",
+              padding: "16px 24px !important",
               userSelect: "none",
               border: "none",
               borderRadius: "8px",
