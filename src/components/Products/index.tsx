@@ -40,7 +40,7 @@ export const Products: FC = () => {
         css={{
           display: "grid",
           alignItems: "center",
-          gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+          gridTemplateColumns: "repeat(auto-fit, minmax(350px, 1fr))",
           gridGap: "1rem",
         }}
       >
@@ -53,6 +53,7 @@ export const Products: FC = () => {
                 cursor: "pointer",
                 verticalAlign: "middle",
                 borderStyle: "none",
+                borderRadius: "8px",
                 width: "100%",
               }}
               onClick={() => {

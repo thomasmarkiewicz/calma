@@ -1,10 +1,22 @@
 [
   {
+    "id": "chicken",
+    "name": "Chicken",
+    "desc": "",
+    "options": [],
+    "images": ["calma_chicken.jpg"]
+  },
+  {
     "id": "eggs",
     "name": "Eggs",
     "desc": "",
     "options": ["Medium", "Large", "Extra Large", "Jumbo"],
-    "images": ["calma_eggs_medium.jpg", "calma_eggs_large.jpg", "calma_eggs_extra_large.jpg", "calma_eggs_jumbo.jpg"]
+    "images": [
+      "calma_eggs_medium.jpg",
+      "calma_eggs_large.jpg",
+      "calma_eggs_extra_large.jpg",
+      "calma_eggs_jumbo.jpg"
+    ]
   },
   {
     "id": "milk",
@@ -32,7 +44,15 @@
     "name": "Jam",
     "desc": "",
     "options": [],
-    "images": ["calma_jam_apricot.jpg", "calma_jam_black_rasberry.jpg", "calma_jam_strawberry.jpg", "calma_jam_gooseberry.jpg", "calma_jam_apple.jpg", "calma_jam_sour_cherry.jpg", "calma_jam_plum.jpg"]
+    "images": [
+      "calma_jam_apricot.jpg",
+      "calma_jam_black_rasberry.jpg",
+      "calma_jam_strawberry.jpg",
+      "calma_jam_gooseberry.jpg",
+      "calma_jam_apple.jpg",
+      "calma_jam_sour_cherry.jpg",
+      "calma_jam_plum.jpg"
+    ]
   },
   {
     "id": "buttermilk",
@@ -47,19 +67,5 @@
     "desc": "",
     "options": [],
     "images": ["calma_goat_milk.jpg"]
-  },
-  {
-    "id": "chicken",
-    "name": "Chicken",
-    "desc": "",
-    "options": [],
-    "images": ["p4.jpg"]
-  },
-  {
-    "id": "turkey",
-    "name": "Turkey",
-    "desc": "",
-    "options": [],
-    "images": ["p5.jpg"]
   }
 ]

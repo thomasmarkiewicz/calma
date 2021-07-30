@@ -44,6 +44,16 @@ function getDistanceFromLatLonInKm(
   return d;
 }
 
+function getDistanceFromLatLonInMiles(
+  lat1: number,
+  lon1: number,
+  lat2: number,
+  lon2: number
+): number {
+  const distInKm = getDistanceFromLatLonInKm(lat1, lon1, lat2, lon2);
+  return Math.round(distInKm * 0.621371);
+}
+
 interface Props extends GeolocatedProps {
   productId: string;
   isOpen: boolean;
@@ -74,7 +84,7 @@ export const LocatorBase: FC<Props> = (args) => {
     if (coords) {
       const storesWithDist = stores.map((s: any) => ({
         ...s,
-        dist: getDistanceFromLatLonInKm(
+        dist: getDistanceFromLatLonInMiles(
           s.lat,
           s.lon,
           coords.latitude,
@@ -89,19 +99,60 @@ export const LocatorBase: FC<Props> = (args) => {
     const storesWithProduct = storesWithDistance
       .filter((s: any) => s.products.includes(productId))
       .sort((a: { dist: number }, b: { dist: number }) =>
-        a.dist >= b.dist ? 1 : -1
+        a.dist < b.dist ? 1 : -1
       );
 
-    const storeList = storesWithProduct.map((swp: any) => (
-      <p key={swp.id}>
-        <a
-          href={`https://maps.google.com/?q=${swp.name}, ${swp.zip}`}
-          target="_blank"
+    const storeList = storesWithProduct
+      .map((swp: any) => (
+        <p
+          key={swp.id}
+          css={{
+            margin: 0,
+            padding: "16px 0px",
+            borderBottom: "1px solid lightgrey",
+            width: "96%",
+            "a:link": {
+              color: "gray",
+              textDecoration: "none",
+            },
+            "a:visited": {
+              color: "gray",
+            },
+            ":hover": {
+              color: "#000 !important",
+              backgroundColor: "#eee!important",
+            },
+          }}
+          onClick={() =>
+            window.open(
+              `https://maps.google.com/?q=${swp.name}, ${swp.zip}`,
+              "_blank"
+            )
+          }
         >
-          {swp.name} - {swp.city}, {swp.state}
-        </a>
-      </p>
-    ));
+          <a
+            href={`https://maps.google.com/?q=${swp.name}, ${swp.zip}`}
+            target="_blank"
+          >
+            <div
+              css={{
+                fontWeight: "bold",
+                fontSize: "larger",
+                paddingBottom: "8px",
+              }}
+            >
+              {swp.name}
+            </div>
+            <div>{swp.street}</div>
+            <div>
+              {swp.city}, {swp.state} {swp.zip}
+            </div>
+            <div>{swp.phone}</div>
+            {swp.dist && <div css={{ marginTop: "4px" }}>{swp.dist} miles</div>}
+          </a>
+        </p>
+      ))
+      .reverse();
     setStoreList(storeList);
   }, [storesWithDistance, productId]);
 
@@ -121,9 +172,12 @@ export const LocatorBase: FC<Props> = (args) => {
             textDecoration: "none",
             textAlign: "center",
             cursor: "pointer",
+            width: "98%",
+            fontWeight: "bold",
+            borderRadius: "8px",
           }}
         >
-          Sort by your current location
+          Use my location to find nearest stores
         </button>
         <p>Stores in alphabetical order:</p>
       </div>
@@ -138,71 +192,97 @@ export const LocatorBase: FC<Props> = (args) => {
     : undefined;
 
   return (
-    <div>
-      <Modal
-        isOpen={isOpen}
-        shouldCloseOnOverlayClick={true}
-        contentLabel="Product Locator"
+    <Modal
+      isOpen={isOpen}
+      contentLabel="Product Locator"
+      shouldCloseOnEsc
+      shouldCloseOnOverlayClick
+      onRequestClose={close}
+      style={{
+        overlay: {
+          opacity: 1,
+          zIndex: 99,
+          position: "fixed",
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          background: "rgba(46,46,51,.95)",
+        },
+        content: {
+          // top: "50%",
+          // left: "50%",
+          // right: "0%",
+          // bottom: "-40%",
+          // marginRight: "-50%",
+          // transform: "translate(-50%, -50%)",
+          // maxWidth: "600px",
+          zIndex: 100,
+          position: "fixed",
+          bottom: 0,
+          left: 0,
+          right: 0,
+          width: "auto",
+          maxWidth: "500px",
+          margin: "0 auto",
+          height: "90vh",
+        },
+      }}
+    >
+      <div
+        css={{
+          position: "relative",
+          margin: "0 auto",
+          borderRadius: "12px 12px 0 0",
+          height: "90vh",
+        }}
       >
         <div
           css={{
-            width: "100%",
-            display: "inline-block",
+            position: "absolute",
+            top: 0,
+            left: 0,
+            right: 0,
             overflow: "auto",
-            whiteSpace: "nowrap",
-            margin: "0px auto",
+            height: "82vh",
           }}
         >
-          <div css={{ float: "left" }}>
-            <h2>{product?.name}</h2>
-          </div>
-          <div css={{ float: "right" }}>
-            <FontAwesomeIcon
-              icon={faWindowClose}
-              css={{
-                fontSize: "1.8em",
-                verticalAlign: "middle",
-                cursor: "pointer",
-              }}
-              onClick={close}
-            />
-          </div>
+          <h2>{product?.name}</h2>
+
+          {locationButton()}
+
+          {storeList}
         </div>
 
-        <img
-          src={src}
-          alt={product?.name}
+        <div
           css={{
-            verticalAlign: "middle",
-            borderStyle: "none",
-            height: "200px",
-            marginBottom: "16px",
-          }}
-        />
-
-        <br />
-
-        {locationButton()}
-
-        {storeList}
-
-        <button
-          onClick={close}
-          css={{
-            color: "#000 !important",
-            backgroundColor: "#f4f1f1 !important",
-            padding: "12px 24px !important",
-            userSelect: "none",
-            border: "none",
-            textDecoration: "none",
-            textAlign: "center",
-            cursor: "pointer",
+            position: "absolute",
+            bottom: 0,
+            left: "35%",
+            right: "35%",
+            height: "60px",
           }}
         >
-          Close
-        </button>
-      </Modal>
-    </div>
+          <button
+            onClick={close}
+            css={{
+              color: "#000 !important",
+              backgroundColor: "#dbedfc !important",
+              padding: "16px 48px !important",
+              userSelect: "none",
+              border: "none",
+              borderRadius: "8px",
+              textDecoration: "none",
+              textAlign: "center",
+              fontWeight: "bold",
+              cursor: "pointer",
+            }}
+          >
+            CLOSE
+          </button>
+        </div>
+      </div>
+    </Modal>
   );
 };
 
