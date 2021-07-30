@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.4a680ddd.chunk.css",
-    "main.js": "/static/js/main.d55dc6c9.chunk.js",
-    "main.js.map": "/static/js/main.d55dc6c9.chunk.js.map",
+    "main.js": "/static/js/main.b7234858.chunk.js",
+    "main.js.map": "/static/js/main.b7234858.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.be76163c.js",
     "runtime-main.js.map": "/static/js/runtime-main.be76163c.js.map",
-    "vendor.js": "/static/js/vendor.7697ed7d.chunk.js",
-    "vendor.js.map": "/static/js/vendor.7697ed7d.chunk.js.map",
-    "vendors~main.js": "/static/js/vendors~main.8d51862f.chunk.js",
-    "vendors~main.js.map": "/static/js/vendors~main.8d51862f.chunk.js.map",
+    "vendor.js": "/static/js/vendor.caa7cb4c.chunk.js",
+    "vendor.js.map": "/static/js/vendor.caa7cb4c.chunk.js.map",
+    "vendors~main.js": "/static/js/vendors~main.6a49e143.chunk.js",
+    "vendors~main.js.map": "/static/js/vendors~main.6a49e143.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.893e3637c8fcde56751b35552c3d9c89.js": "/precache-manifest.893e3637c8fcde56751b35552c3d9c89.js",
+    "precache-manifest.8ec6ea289cb3a511c56986f055f87925.js": "/precache-manifest.8ec6ea289cb3a511c56986f055f87925.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.4a680ddd.chunk.css.map": "/static/css/main.4a680ddd.chunk.css.map",
-    "static/js/vendor.7697ed7d.chunk.js.LICENSE.txt": "/static/js/vendor.7697ed7d.chunk.js.LICENSE.txt",
-    "static/js/vendors~main.8d51862f.chunk.js.LICENSE.txt": "/static/js/vendors~main.8d51862f.chunk.js.LICENSE.txt",
+    "static/js/vendor.caa7cb4c.chunk.js.LICENSE.txt": "/static/js/vendor.caa7cb4c.chunk.js.LICENSE.txt",
+    "static/js/vendors~main.6a49e143.chunk.js.LICENSE.txt": "/static/js/vendors~main.6a49e143.chunk.js.LICENSE.txt",
     "static/media/bg_chicken_free_wheels.jpg": "/static/media/bg_chicken_free_wheels.66ceeae6.jpg",
     "static/media/bg_eggs_in_basket_even_tone.jpg": "/static/media/bg_eggs_in_basket_even_tone.9fe4fb0d.jpg",
     "static/media/bg_farm.jpg": "/static/media/bg_farm.c324bfc7.jpg",
@@ -22,6 +22,7 @@
     "static/media/bg_istockphoto-123099333-1024x1024.jpg": "/static/media/bg_istockphoto-123099333-1024x1024.2b9d4412.jpg",
     "static/media/calma_butter.jpg": "/static/media/calma_butter.f939d7af.jpg",
     "static/media/calma_buttermilk.jpg": "/static/media/calma_buttermilk.3c559b9c.jpg",
+    "static/media/calma_chicken.jpg": "/static/media/calma_chicken.d5ac09a0.jpg",
     "static/media/calma_eggs_extra_large.jpg": "/static/media/calma_eggs_extra_large.8410da7b.jpg",
     "static/media/calma_eggs_jumbo.jpg": "/static/media/calma_eggs_jumbo.be197c26.jpg",
     "static/media/calma_eggs_large.jpg": "/static/media/calma_eggs_large.12faffee.jpg",
@@ -48,9 +49,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.be76163c.js",
-    "static/js/vendor.7697ed7d.chunk.js",
-    "static/js/vendors~main.8d51862f.chunk.js",
+    "static/js/vendor.caa7cb4c.chunk.js",
+    "static/js/vendors~main.6a49e143.chunk.js",
     "static/css/main.4a680ddd.chunk.css",
-    "static/js/main.d55dc6c9.chunk.js"
+    "static/js/main.b7234858.chunk.js"
   ]
 }
