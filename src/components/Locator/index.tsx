@@ -225,7 +225,7 @@ export const LocatorBase: FC<Props> = (args) => {
           width: "auto",
           maxWidth: "500px",
           margin: "0 auto",
-          height: "95vh",
+          height: "calc(var(--vh, 1vh) * 95)",
         },
       }}
     >
@@ -234,7 +234,7 @@ export const LocatorBase: FC<Props> = (args) => {
           position: "relative",
           margin: "0 auto",
           borderRadius: "12px 12px 0 0",
-          height: "95vh",
+          height: "calc(var(--vh, 1vh) * 95)",
         }}
       >
         <div
@@ -244,7 +244,7 @@ export const LocatorBase: FC<Props> = (args) => {
             left: 0,
             right: 0,
             overflow: "auto",
-            height: "95vh",
+            height: "calc(var(--vh, 1vh) * 95)",
           }}
         >
           <h2>{product?.name}</h2>
