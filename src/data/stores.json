@@ -8,7 +8,7 @@
     "state": "IL",
     "zip": "60171",
     "phone": "",
-    "products": ["eggs", "butter", "honey"],
+    "products": ["eggs-medium", "butter", "honey"],
     "lat": 41.9281057,
     "lon": -87.8358121
   },
@@ -21,7 +21,7 @@
     "state": "IL",
     "zip": "60622",
     "phone": "(773) 278-1717",
-    "products": ["milk", "chicken", "jam"],
+    "products": ["milk", "chicken", "jam-apricot"],
     "lat": 41.9001769,
     "lon": -87.6888491
   },
@@ -34,7 +34,7 @@
     "state": "IL",
     "zip": "60630",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey"],
+    "products": ["eggs-medium", "milk", "butter", "honey"],
     "lat": 41.9803056,
     "lon": -87.7745748
   },
@@ -47,7 +47,7 @@
     "state": "IL",
     "zip": "60047",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "chicken", "honey", "jam"],
+    "products": ["eggs-medium", "milk", "butter", "chicken", "honey", "jam-apricot"],
     "lat": 42.1858085,
     "lon": -88.0914855
   },
@@ -60,7 +60,7 @@
     "state": "IL",
     "zip": "60622",
     "phone": "",
-    "products": ["eggs", "milk", "chicken"],
+    "products": ["eggs-medium", "milk", "chicken"],
     "lat": 41.8333925,
     "lon": -88.0123393
   },
@@ -73,7 +73,7 @@
     "state": "IL",
     "zip": "60634",
     "phone": "",
-    "products": ["eggs", "milk", "butter"],
+    "products": ["eggs-medium", "milk", "butter"],
     "lat": 41.9384038,
     "lon": -87.7973446
   },
@@ -86,7 +86,7 @@
     "state": "IL",
     "zip": "60714",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 42.0218579,
     "lon": -87.8130771
   },
@@ -99,7 +99,7 @@
     "state": "IL",
     "zip": "60131",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "chicken"],
+    "products": ["eggs-medium", "milk", "butter", "chicken"],
     "lat": 41.9298272,
     "lon": -87.8666449
   },
@@ -112,7 +112,7 @@
     "state": "IL",
     "zip": "60402",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey"],
+    "products": ["eggs-medium", "milk", "butter", "honey"],
     "lat": 41.8224019,
     "lon": -87.8045162
   },
@@ -125,7 +125,7 @@
     "state": "IL",
     "zip": "60641",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.9385654,
     "lon": -87.7592873
   },
@@ -138,7 +138,7 @@
     "state": "IL",
     "zip": "60527",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey"],
+    "products": ["eggs-medium", "milk", "butter", "honey"],
     "lat": 41.7496686,
     "lon": -87.9151336
   },
@@ -151,7 +151,7 @@
     "state": "IL",
     "zip": "60561",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam"],
+    "products": ["eggs-medium", "milk", "butter", "honey", "jam-apricot"],
     "lat": 41.7510714,
     "lon": -87.9714793
   },
@@ -164,7 +164,7 @@
     "state": "IL",
     "zip": "60448",
     "phone": "",
-    "products": ["eggs", "butter", "jam"],
+    "products": ["eggs-medium", "butter", "jam-apricot"],
     "lat": 41.5300544,
     "lon": -87.8543317
   },
@@ -177,7 +177,7 @@
     "state": "IL",
     "zip": "60192",
     "phone": "",
-    "products": ["eggs", "butter", "honey"],
+    "products": ["eggs-medium", "butter", "honey"],
     "lat": 42.174699,
     "lon": -88.3404337
   },
@@ -190,7 +190,7 @@
     "state": "IL",
     "zip": "60018",
     "phone": "",
-    "products": ["eggs", "jam"],
+    "products": ["eggs-medium", "jam-apricot"],
     "lat": 42.0261668,
     "lon": -87.8945108
   },
@@ -203,7 +203,7 @@
     "state": "IL",
     "zip": "60423",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.51137,
     "lon": -87.8497902
   },
@@ -216,7 +216,7 @@
     "state": "IL",
     "zip": "60030",
     "phone": "",
-    "products": ["eggs", "butter", "honey"],
+    "products": ["eggs-medium", "butter", "honey"],
     "lat": 42.3435411,
     "lon": -88.025453
   },
@@ -229,7 +229,7 @@
     "state": "IL",
     "zip": "60706",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.9638519,
     "lon": -87.8459799
   },
@@ -242,7 +242,7 @@
     "state": "IL",
     "zip": "60046",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 42.3946549,
     "lon": -88.0204465
   },
@@ -255,7 +255,7 @@
     "state": "IL",
     "zip": "60172",
     "phone": "",
-    "products": ["eggs", "butter"],
+    "products": ["eggs-medium", "butter"],
     "lat": 41.964256,
     "lon": -88.0991897
   },
@@ -268,7 +268,7 @@
     "state": "IL",
     "zip": "60706",
     "phone": "",
-    "products": ["eggs", "butter"],
+    "products": ["eggs-medium", "butter"],
     "lat": 41.9630222,
     "lon": -87.8209173
   },
@@ -281,7 +281,7 @@
     "state": "IL",
     "zip": "60074",
     "phone": "",
-    "products": ["eggs", "butter", "honey"],
+    "products": ["eggs-medium", "butter", "honey"],
     "lat": 42.146991,
     "lon": -88.0341017
   },
@@ -294,7 +294,7 @@
     "state": "IL",
     "zip": "60108",
     "phone": "",
-    "products": ["eggs", "milk", "butter"],
+    "products": ["eggs-medium", "milk", "butter"],
     "lat": 41.9561215,
     "lon": -88.0761714
   },
@@ -307,7 +307,7 @@
     "state": "IL",
     "zip": "60101",
     "phone": "",
-    "products": ["eggs", "milk", "butter"],
+    "products": ["eggs-medium", "milk", "butter"],
     "lat": 41.9397434,
     "lon": -88.0035031
   },
@@ -320,7 +320,7 @@
     "state": "IL",
     "zip": "60188",
     "phone": "",
-    "products": ["eggs", "milk", "butter"],
+    "products": ["eggs-medium", "milk", "butter"],
     "lat": 41.9010443,
     "lon": -88.1059542
   },
@@ -333,7 +333,7 @@
     "state": "IL",
     "zip": "60707",
     "phone": "",
-    "products": ["eggs", "milk", "butter"],
+    "products": ["eggs-medium", "milk", "butter"],
     "lat": 41.9245056,
     "lon": -87.8092226
   },
@@ -346,7 +346,7 @@
     "state": "IL",
     "zip": "60133",
     "phone": "",
-    "products": ["eggs", "milk", "butter"],
+    "products": ["eggs-medium", "milk", "butter"],
     "lat": 41.9785608,
     "lon": -88.1384677
   },
@@ -359,7 +359,7 @@
     "state": "IL",
     "zip": "60564",
     "phone": "",
-    "products": ["eggs", "milk", "butter"],
+    "products": ["eggs-medium", "milk", "butter"],
     "lat": 41.681454,
     "lon": -88.2096527
   },
@@ -372,7 +372,7 @@
     "state": "IL",
     "zip": "60439",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "jam", "turkey"],
+    "products": ["eggs-medium", "milk", "butter", "jam-apricot", "turkey"],
     "lat": 41.6655072,
     "lon": -88.000536
   },
@@ -385,7 +385,7 @@
     "state": "IL",
     "zip": "60659",
     "phone": "",
-    "products": ["eggs", "milk", "butter"],
+    "products": ["eggs-medium", "milk", "butter"],
     "lat": 41.9972222,
     "lon": -87.7121887
   },
@@ -398,7 +398,7 @@
     "state": "IL",
     "zip": "60102",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "turkey"],
+    "products": ["eggs-medium", "milk", "butter", "turkey"],
     "lat": 42.1528846,
     "lon": -88.334403
   },
@@ -411,7 +411,7 @@
     "state": "IL",
     "zip": "60706",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "chicken", "honey", "jam"],
+    "products": ["eggs-medium", "milk", "butter", "chicken", "honey", "jam-apricot"],
     "lat": 41.960138,
     "lon": -87.8091487
   },
@@ -424,7 +424,7 @@
     "state": "IL",
     "zip": "60070",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam"],
+    "products": ["eggs-medium", "milk", "butter", "honey", "jam-apricot"],
     "lat": 42.0946706,
     "lon": -87.9380015
   },
@@ -437,7 +437,7 @@
     "state": "IL",
     "zip": "60193",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam", "turkey"],
+    "products": ["eggs-medium", "milk", "butter", "honey", "jam-apricot", "turkey"],
     "lat": 42.017249,
     "lon": -88.084052
   },
@@ -450,7 +450,7 @@
     "state": "IL",
     "zip": "60660",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam"],
+    "products": ["eggs-medium", "milk", "butter", "honey", "jam-apricot"],
     "lat": 41.9983338,
     "lon": -87.6692901
   },
@@ -463,7 +463,7 @@
     "state": "IL",
     "zip": "60618",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.9367703,
     "lon": -87.7219405
   },
@@ -476,7 +476,7 @@
     "state": "IL",
     "zip": "60067",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "chicken", "honey", "jam", "turkey"],
+    "products": ["eggs-medium", "milk", "butter", "chicken", "honey", "jam-apricot", "turkey"],
     "lat": 42.123133,
     "lon": -88.0493847
   },
@@ -489,7 +489,7 @@
     "state": "IL",
     "zip": "60108",
     "phone": "",
-    "products": ["eggs", "milk", "chicken", "honey", "jam"],
+    "products": ["eggs-medium", "milk", "chicken", "honey", "jam-apricot"],
     "lat": 41.956062,
     "lon": -88.07665
   },
@@ -502,7 +502,7 @@
     "state": "IL",
     "zip": "60191",
     "phone": "",
-    "products": ["eggs", "milk", "butter"],
+    "products": ["eggs-medium", "milk", "butter"],
     "lat": 41.964495,
     "lon": -87.9979617
   },
@@ -515,7 +515,7 @@
     "state": "IL",
     "zip": "60714",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam"],
+    "products": ["eggs-medium", "milk", "butter", "honey", "jam-apricot"],
     "lat": 42.0336773,
     "lon": -87.8361012
   },
@@ -528,7 +528,7 @@
     "state": "IL",
     "zip": "60714",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam"],
+    "products": ["eggs-medium", "milk", "butter", "honey", "jam-apricot"],
     "lat": 42.0308391,
     "lon": -87.8461644
   },
@@ -541,7 +541,7 @@
     "state": "IL",
     "zip": "60647",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey"],
+    "products": ["eggs-medium", "milk", "butter", "honey"],
     "lat": 41.9210972,
     "lon": -87.6900776
   },
@@ -554,7 +554,7 @@
     "state": "IL",
     "zip": "60176",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.9470863,
     "lon": -87.8689032
   },
@@ -567,7 +567,7 @@
     "state": "IL",
     "zip": "60089",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam"],
+    "products": ["eggs-medium", "milk", "butter", "honey", "jam-apricot"],
     "lat": 42.1409031,
     "lon": -87.962467
   },
@@ -580,7 +580,7 @@
     "state": "IL",
     "zip": "60060",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam"],
+    "products": ["eggs-medium", "milk", "butter", "honey", "jam-apricot"],
     "lat": 42.2411651,
     "lon": -87.9982519
   },
@@ -593,7 +593,7 @@
     "state": "IL",
     "zip": "60614",
     "phone": "",
-    "products": ["eggs", "chicken"],
+    "products": ["eggs-medium", "chicken"],
     "lat": 41.9178511,
     "lon": -87.6508439
   },
@@ -606,7 +606,7 @@
     "state": "IL",
     "zip": "60462",
     "phone": "",
-    "products": ["eggs", "butter", "chicken"],
+    "products": ["eggs-medium", "butter", "chicken"],
     "lat": 41.6148723,
     "lon": -87.8574927
   },
@@ -619,7 +619,7 @@
     "state": "IL",
     "zip": "60004",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam"],
+    "products": ["eggs-medium", "milk", "butter", "honey", "jam-apricot"],
     "lat": 42.113908,
     "lon": -87.9834606
   },
@@ -632,7 +632,7 @@
     "state": "IL",
     "zip": "60191",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.964354,
     "lon": -87.9889755
   },
@@ -645,7 +645,7 @@
     "state": "IL",
     "zip": "60641",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.9384833,
     "lon": -87.7668526
   },
@@ -658,7 +658,7 @@
     "state": "IL",
     "zip": "60457",
     "phone": "",
-    "products": ["eggs", "butter", "chicken"],
+    "products": ["eggs-medium", "butter", "chicken"],
     "lat": 41.730467,
     "lon": -87.8209527
   },
@@ -671,7 +671,7 @@
     "state": "IL",
     "zip": "60714",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam", "turkey"],
+    "products": ["eggs-medium", "milk", "butter", "honey", "jam-apricot", "turkey"],
     "lat": 42.024839,
     "lon": -87.8143709
   },
@@ -684,7 +684,7 @@
     "state": "IL",
     "zip": "60453",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "chicken", "honey"],
+    "products": ["eggs-medium", "milk", "butter", "chicken", "honey"],
     "lat": 41.7331222,
     "lon": -87.7828887
   },
@@ -697,7 +697,7 @@
     "state": "IL",
     "zip": "60193",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam"],
+    "products": ["eggs-medium", "milk", "butter", "honey", "jam-apricot"],
     "lat": 42.0078498,
     "lon": -88.0841102
   },
@@ -710,7 +710,7 @@
     "state": "IL",
     "zip": "60176",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam"],
+    "products": ["eggs-medium", "milk", "butter", "honey", "jam-apricot"],
     "lat": 41.954837,
     "lon": -87.8663167
   },
@@ -723,7 +723,7 @@
     "state": "IL",
     "zip": "60090",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey"],
+    "products": ["eggs-medium", "milk", "butter", "honey"],
     "lat": 42.1382538,
     "lon": -87.9397907
   },
@@ -736,7 +736,7 @@
     "state": "IL",
     "zip": "60056",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey"],
+    "products": ["eggs-medium", "milk", "butter", "honey"],
     "lat": 42.045776,
     "lon": -87.9430461
   },
@@ -749,7 +749,7 @@
     "state": "IL",
     "zip": "60707",
     "phone": "",
-    "products": ["eggs", "milk", "butter"],
+    "products": ["eggs-medium", "milk", "butter"],
     "lat": 41.9249107,
     "lon": -87.8081264
   },
@@ -762,7 +762,7 @@
     "state": "IL",
     "zip": "60630",
     "phone": "",
-    "products": ["eggs", "butter", "chicken", "honey", "jam"],
+    "products": ["eggs-medium", "butter", "chicken", "honey", "jam-apricot"],
     "lat": 41.9762299,
     "lon": -87.7886168
   },
@@ -775,7 +775,7 @@
     "state": "IL",
     "zip": "60618",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "chicken"],
+    "products": ["eggs-medium", "milk", "butter", "chicken"],
     "lat": 41.9354071,
     "lon": -87.720143
   },
@@ -788,7 +788,7 @@
     "state": "IL",
     "zip": "60020",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 42.3955549,
     "lon": -88.1858197
   },
@@ -801,7 +801,7 @@
     "state": "IL",
     "zip": "60465",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "chicken", "honey", "jam", "turkey"],
+    "products": ["eggs-medium", "milk", "butter", "chicken", "honey", "jam-apricot", "turkey"],
     "lat": 41.7314427,
     "lon": -87.9506234
   },
@@ -814,7 +814,7 @@
     "state": "IL",
     "zip": "60172",
     "phone": "",
-    "products": ["eggs", "milk", "chicken"],
+    "products": ["eggs-medium", "milk", "chicken"],
     "lat": 41.9835749,
     "lon": -88.0767531
   },
@@ -827,7 +827,7 @@
     "state": "IL",
     "zip": "60018",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey"],
+    "products": ["eggs-medium", "milk", "butter", "honey"],
     "lat": 42.0262483,
     "lon": -87.8955987
   },
@@ -840,7 +840,7 @@
     "state": "IL",
     "zip": "60077",
     "phone": "",
-    "products": ["eggs", "milk", "honey", "jam"],
+    "products": ["eggs-medium", "milk", "honey", "jam-apricot"],
     "lat": 42.0247518,
     "lon": -87.7482642
   },
@@ -853,7 +853,7 @@
     "state": "IL",
     "zip": "60084",
     "phone": "",
-    "products": ["eggs", "milk"],
+    "products": ["eggs-medium", "milk"],
     "lat": 42.2613482,
     "lon": -88.1676005
   },
@@ -866,7 +866,7 @@
     "state": "IL",
     "zip": "60641",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey"],
+    "products": ["eggs-medium", "milk", "butter", "honey"],
     "lat": 41.9602992,
     "lon": -87.7628812
   },
@@ -879,7 +879,7 @@
     "state": "IL",
     "zip": "60634",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam"],
+    "products": ["eggs-medium", "milk", "butter", "honey", "jam-apricot"],
     "lat": 41.9523031,
     "lon": -87.7914382
   },
@@ -892,7 +892,7 @@
     "state": "IL",
     "zip": "60056",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam"],
+    "products": ["eggs-medium", "milk", "butter", "honey", "jam-apricot"],
     "lat": 42.0477802,
     "lon": -87.9622869
   },
@@ -905,7 +905,7 @@
     "state": "IL",
     "zip": "60626",
     "phone": "",
-    "products": ["eggs", "honey"],
+    "products": ["eggs-medium", "honey"],
     "lat": 42.0080147,
     "lon": -87.667208
   },
@@ -918,7 +918,7 @@
     "state": "IL",
     "zip": "60060",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam"],
+    "products": ["eggs-medium", "milk", "butter", "honey", "jam-apricot"],
     "lat": 42.2410781,
     "lon": -87.9797424
   },
@@ -931,7 +931,7 @@
     "state": "IL",
     "zip": "60133",
     "phone": "",
-    "products": ["eggs", "milk", "jam"],
+    "products": ["eggs-medium", "milk", "jam-apricot"],
     "lat": 41.9779907,
     "lon": -88.135854
   },
@@ -944,7 +944,7 @@
     "state": "IL",
     "zip": "60565",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey"],
+    "products": ["eggs-medium", "milk", "butter", "honey"],
     "lat": 41.7498403,
     "lon": -88.1653015
   },
@@ -957,7 +957,7 @@
     "state": "IL",
     "zip": "60714",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 42.0388561,
     "lon": -87.8250215
   },
@@ -970,7 +970,7 @@
     "state": "IL",
     "zip": "60465",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "chicken"],
+    "products": ["eggs-medium", "milk", "butter", "chicken"],
     "lat": 41.697035,
     "lon": -87.8175558
   },
@@ -983,7 +983,7 @@
     "state": "IL",
     "zip": "60137",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.8606935,
     "lon": -88.049755
   },
@@ -996,7 +996,7 @@
     "state": "IL",
     "zip": "60455",
     "phone": "",
-    "products": ["eggs", "milk", "butter"],
+    "products": ["eggs-medium", "milk", "butter"],
     "lat": 41.7049871,
     "lon": -87.8005771
   },
@@ -1009,7 +1009,7 @@
     "state": "IL",
     "zip": "60608",
     "phone": "",
-    "products": ["eggs", "milk", "butter"],
+    "products": ["eggs-medium", "milk", "butter"],
     "lat": 41.8533266,
     "lon": -87.6896396
   },
@@ -1022,7 +1022,7 @@
     "state": "IL",
     "zip": "60439",
     "phone": "",
-    "products": ["eggs", "milk", "butter"],
+    "products": ["eggs-medium", "milk", "butter"],
     "lat": 41.6608523,
     "lon": -88.0012687
   },
@@ -1035,7 +1035,7 @@
     "state": "IL",
     "zip": "60302",
     "phone": "",
-    "products": ["eggs", "milk", "butter"],
+    "products": ["eggs-medium", "milk", "butter"],
     "lat": 41.6608523,
     "lon": -88.0012687
   },
@@ -1048,7 +1048,7 @@
     "state": "IL",
     "zip": "60181",
     "phone": "",
-    "products": ["eggs", "milk", "butter"],
+    "products": ["eggs-medium", "milk", "butter"],
     "lat": 41.8589681,
     "lon": -87.9735483
   },
@@ -1061,7 +1061,7 @@
     "state": "IL",
     "zip": "60189",
     "phone": "",
-    "products": ["eggs", "milk", "butter"],
+    "products": ["eggs-medium", "milk", "butter"],
     "lat": 41.8310397,
     "lon": -88.0995486
   },
@@ -1074,7 +1074,7 @@
     "state": "IL",
     "zip": "60527",
     "phone": "",
-    "products": ["eggs", "milk", "butter"],
+    "products": ["eggs-medium", "milk", "butter"],
     "lat": 41.762672,
     "lon": -87.9437615
   },
@@ -1087,7 +1087,7 @@
     "state": "IL",
     "zip": "60805",
     "phone": "",
-    "products": ["eggs", "milk", "butter"],
+    "products": ["eggs-medium", "milk", "butter"],
     "lat": 41.7210341,
     "lon": -87.7148146
   },
@@ -1100,7 +1100,7 @@
     "state": "IL",
     "zip": "60139",
     "phone": "",
-    "products": ["eggs", "milk"],
+    "products": ["eggs-medium", "milk"],
     "lat": 41.9044913,
     "lon": -88.0649398
   },
@@ -1113,7 +1113,7 @@
     "state": "IN",
     "zip": "46373",
     "phone": "",
-    "products": ["eggs", "butter", "chicken", "jam"],
+    "products": ["eggs-medium", "butter", "chicken", "jam-apricot"],
     "lat": 41.4278444,
     "lon": -87.4404473
   },
@@ -1126,7 +1126,7 @@
     "state": "IL",
     "zip": "60706",
     "phone": "",
-    "products": ["eggs", "butter", "honey", "jam"],
+    "products": ["eggs-medium", "butter", "honey", "jam-apricot"],
     "lat": 41.9655571,
     "lon": -87.8357905
   },
@@ -1139,7 +1139,7 @@
     "state": "IL",
     "zip": "60634",
     "phone": "",
-    "products": ["eggs", "butter", "chicken", "honey"],
+    "products": ["eggs-medium", "butter", "chicken", "honey"],
     "lat": 41.9450029,
     "lon": -87.8050912
   },
@@ -1152,7 +1152,7 @@
     "state": "IL",
     "zip": "60622",
     "phone": "",
-    "products": ["eggs", "milk"],
+    "products": ["eggs-medium", "milk"],
     "lat": 41.897412,
     "lon": -87.6868015
   },
@@ -1165,7 +1165,7 @@
     "state": "IL",
     "zip": "60706",
     "phone": "",
-    "products": ["eggs", "butter", "chicken", "honey"],
+    "products": ["eggs-medium", "butter", "chicken", "honey"],
     "lat": 41.96625415348518,
     "lon": -87.80657361835557
   },
@@ -1178,7 +1178,7 @@
     "state": "IL",
     "zip": "60004",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 42.08043240275584, 
     "lon": -87.97299684121542
   },
@@ -1191,7 +1191,7 @@
     "state": "IL",
     "zip": "60504",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.758029383391,
     "lon": -88.2411854137665
   },
@@ -1204,7 +1204,7 @@
     "state": "IL",
     "zip": "60015",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 42.20239056338736, 
     "lon": -87.86272491901791
   },
@@ -1217,7 +1217,7 @@
     "state": "IL",
     "zip": "60601",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.88533596794365, 
     "lon": -87.61892365383399
   },
@@ -1230,7 +1230,7 @@
     "state": "IL",
     "zip": "60108",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.95152990698262, 
     "lon": -88.12261617899881
   },
@@ -1243,7 +1243,7 @@
     "state": "IL",
     "zip": "60608",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.83599807565211, 
     "lon": -87.66361480450466
   },
@@ -1256,7 +1256,7 @@
     "state": "IL",
     "zip": "60657",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.9373426699349, 
     "lon": -87.64477386829599
   },
@@ -1269,7 +1269,7 @@
     "state": "IL",
     "zip": "60653",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.824605284883084, 
     "lon": -87.61607037266207
   },
@@ -1282,7 +1282,7 @@
     "state": "IL",
     "zip": "60614",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.920829337771835, 
     "lon": -87.66910869253489
   },
@@ -1295,7 +1295,7 @@
     "state": "IL",
     "zip": "60089",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 42.19821412059787, 
     "lon": -87.9680204783579
   },
@@ -1308,7 +1308,7 @@
     "state": "IL",
     "zip": "60014",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 42.225085203318024, 
     "lon": -88.32445194319767
   },
@@ -1321,7 +1321,7 @@
     "state": "IL",
     "zip": "60016",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 42.050645860836525, 
     "lon": -87.92023211585912
   },
@@ -1334,7 +1334,7 @@
     "state": "IL",
     "zip": "60640",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.97663173661035, 
     "lon": -87.65484191381303
   },
@@ -1347,7 +1347,7 @@
     "state": "IL",
     "zip": "60126",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.920605527242316, 
     "lon": -87.9406057172816
   },
@@ -1360,7 +1360,7 @@
     "state": "IL",
     "zip": "60805",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.71976311770129, 
     "lon": -87.68790498613045
   },
@@ -1373,7 +1373,7 @@
     "state": "IL",
     "zip": "60423",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.508753146094016, 
     "lon": -87.84776497989589
   },
@@ -1386,7 +1386,7 @@
     "state": "IL",
     "zip": "60025",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 42.05608488198207, 
     "lon": -87.7974505817752
   },
@@ -1399,7 +1399,7 @@
     "state": "IL",
     "zip": "60062",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 42.11107836894372, 
     "lon": -87.87255700925397
   },
@@ -1412,7 +1412,7 @@
     "state": "IL",
     "zip": "60031",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 42.38345106278766, 
     "lon": -87.97084483681023
   },
@@ -1425,7 +1425,7 @@
     "state": "IL",
     "zip": "60706",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.96555020705454, 
     "lon": -87.8128245681277
   },
@@ -1438,7 +1438,7 @@
     "state": "IL",
     "zip": "60169",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 42.045340062977836, 
     "lon": -88.14346252226925
   },
@@ -1451,7 +1451,7 @@
     "state": "IL",
     "zip": "60630",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.979513022858995, 
     "lon": -87.75750071105153
   },
@@ -1464,7 +1464,7 @@
     "state": "IL",
     "zip": "60047",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 42.198531695900925, 
     "lon": -88.06045900521747
   },
@@ -1477,7 +1477,7 @@
     "state": "IL",
     "zip": "60148",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.85836945148628, 
     "lon": -88.02518048803331
   },
@@ -1490,7 +1490,7 @@
     "state": "IL",
     "zip": "60540",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.74971229383021, 
     "lon": -88.11313841995091
   },
@@ -1503,7 +1503,7 @@
     "state": "IL",
     "zip": "60610",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.9081020401934, 
     "lon":-87.64583481860018
   },
@@ -1516,7 +1516,7 @@
     "state": "IL",
     "zip": "60062",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 42.13962031879112, 
     "lon": -87.79426174618786
   },
@@ -1529,7 +1529,7 @@
     "state": "IL",
     "zip": "60093",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 42.10030789249267, 
     "lon": -87.77130567508758
   },
@@ -1542,7 +1542,7 @@
     "state": "IL",
     "zip": "60453",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.69286314959227, 
     "lon": -87.74147793620172
   },
@@ -1555,7 +1555,7 @@
     "state": "IL",
     "zip": "60462",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.633648403940015, 
     "lon": -87.85215646100595
   },
@@ -1568,7 +1568,7 @@
     "state": "IL",
     "zip": "60067",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 42.11992750539985, 
     "lon": -88.03182267748036
   },
@@ -1581,7 +1581,7 @@
     "state": "IL",
     "zip": "60068",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.987526638508506, 
     "lon": -87.83760672388709
   },
@@ -1594,7 +1594,7 @@
     "state": "IL",
     "zip": "60640",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.96940863088654, 
     "lon": -87.67489790639635
   },
@@ -1607,7 +1607,7 @@
     "state": "IL",
     "zip": "60404",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.53706848215995, 
     "lon": -88.19700954366307
   },
@@ -1620,7 +1620,7 @@
     "state": "IL",
     "zip": "60076",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 42.01261804201973, 
     "lon": -87.71417435291845
   },
@@ -1633,7 +1633,7 @@
     "state": "IL",
     "zip": "60616",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.859340130872575, 
     "lon": -87.62962406912793
   },
@@ -1646,7 +1646,7 @@
     "state": "IL",
     "zip": "60622",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.895763478525325, 
     "lon": -87.67832956429037
   },
@@ -1659,7 +1659,7 @@
     "state": "IL",
     "zip": "60061",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 42.2569139870967, 
     "lon": -87.95094548111783
   },
@@ -1672,7 +1672,7 @@
     "state": "IL",
     "zip": "60661",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.88069709604789, 
     "lon": -87.64756494231203
   },
@@ -1685,7 +1685,7 @@
     "state": "IL",
     "zip": "60154",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.83544882145105, 
     "lon": -87.89951844848977
   },
@@ -1698,7 +1698,7 @@
     "state": "IL",
     "zip": "60618",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.94245112380806, 
     "lon": -87.68996330202334
   },
@@ -1711,7 +1711,7 @@
     "state": "IL",
     "zip": "60558",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.80400207501388, 
     "lon": -87.89147880148705
   },
@@ -1724,7 +1724,7 @@
     "state": "IL",
     "zip": "60559",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.775389480899804, 
     "lon": -87.9787251315478
   },
@@ -1737,7 +1737,7 @@
     "state": "IL",
     "zip": "60187",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.85954132158144, 
     "lon": -88.10326908042906
   },
@@ -1750,7 +1750,7 @@
     "state": "IL",
     "zip": "60018",
     "phone": "",
-    "products": ["eggs", "milk", "butter"],
+    "products": ["eggs-medium", "milk", "butter"],
     "lat": 42.02259439109107, 
     "lon": -87.89812211986545
   },
@@ -1763,7 +1763,7 @@
     "state": "IL",
     "zip": "60638",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "chicken"],
+    "products": ["eggs-medium", "milk", "butter", "chicken"],
     "lat": 41.795677247730886, 
     "lon": -87.75958617299018
   },
@@ -1776,7 +1776,7 @@
     "state": "IL",
     "zip": "60455",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam"],
+    "products": ["eggs-medium", "milk", "butter", "honey", "jam-apricot"],
     "lat": 41.730314859960885, 
     "lon": -87.7975036613334
   },
@@ -1789,7 +1789,7 @@
     "state": "IL",
     "zip": "60016",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam"],
+    "products": ["eggs-medium", "milk", "butter", "honey", "jam-apricot"],
     "lat": 42.04297779447143, 
     "lon": -87.88552478464678
   },
@@ -1802,7 +1802,7 @@
     "state": "IL",
     "zip": "60646",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "chicken"],
+    "products": ["eggs-medium", "milk", "butter", "chicken"],
     "lat": 41.99621124069635, 
     "lon": -87.7885354503152
   },
@@ -1815,7 +1815,7 @@
     "state": "IL",
     "zip": "60074",
     "phone": "",
-    "products": ["eggs", "milk", "butter"],
+    "products": ["eggs-medium", "milk", "butter"],
     "lat": 42.13294997061858, 
     "lon": -88.01304814307404
   },
@@ -1828,7 +1828,7 @@
     "state": "IL",
     "zip": "60706",
     "phone": "",
-    "products": ["eggs", "milk", "honey"],
+    "products": ["eggs-medium", "milk", "honey"],
     "lat": 41.97159859636091, 
     "lon": -87.83763319041925
   },
@@ -1841,7 +1841,7 @@
     "state": "IL",
     "zip": "60634",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.95327589563815, 
     "lon": -87.77744359041988
   },
@@ -1854,7 +1854,7 @@
     "state": "IL",
     "zip": "60659",
     "phone": "",
-    "products": ["eggs", "milk", "butter"],
+    "products": ["eggs-medium", "milk", "butter"],
     "lat": 41.9977914834193, 
     "lon": -87.70138823152296
   },
@@ -1867,7 +1867,7 @@
     "state": "IL",
     "zip": "60004",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 42.1005892612524, 
     "lon": -87.9594931431764
   },
@@ -1880,7 +1880,7 @@
     "state": "IL",
     "zip": "60634",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.939046697272346, 
     "lon": -87.76814963152482
   },
@@ -1893,7 +1893,7 @@
     "state": "IL",
     "zip": "60402",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.84883283923997, 
     "lon": -87.80055310243789
   },
@@ -1906,7 +1906,7 @@
     "state": "IL",
     "zip": "60440",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.69215424401838, 
     "lon": -88.07028933153256
   },
@@ -1919,7 +1919,7 @@
     "state": "IL",
     "zip": "60455",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.73485163680987, 
     "lon": -87.80015550208343
   },
@@ -1932,7 +1932,7 @@
     "state": "IL",
     "zip": "60459",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.75191641823283, 
     "lon": -87.74547880785185
   },
@@ -1945,7 +1945,7 @@
     "state": "IL",
     "zip": "60525",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.768748531780226, 
     "lon": -87.88844706097788
   },
@@ -1958,7 +1958,7 @@
     "state": "IL",
     "zip": "60618",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.95614946040504, 
     "lon": -87.72216574113068
   },
@@ -1971,7 +1971,7 @@
     "state": "IL",
     "zip": "60647",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.92445050466357, 
     "lon": -87.71740243152526
   },
@@ -1984,7 +1984,7 @@
     "state": "IL",
     "zip": "60133",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 42.00837319337595, 
     "lon": -88.14679500207484
   },
@@ -1997,7 +1997,7 @@
     "state": "IL",
     "zip": "60625",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.976815696942765, 
     "lon": -87.69225933152357
   },
@@ -2010,7 +2010,7 @@
     "state": "IL",
     "zip": "60160",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.91369520454223, 
     "lon": -87.88273997876443
   },
@@ -2023,7 +2023,7 @@
     "state": "IL",
     "zip": "60714",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 42.04222167787033, 
     "lon": -87.84227097876038
   },
@@ -2036,7 +2036,7 @@
     "state": "IL",
     "zip": "60586",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 41.56289018534322, 
     "lon": -88.19846243767094
   },
@@ -2049,7 +2049,7 @@
     "state": "IL",
     "zip": "60004",
     "phone": "",
-    "products": ["eggs"],
+    "products": ["eggs-medium"],
     "lat": 42.100585778549735, 
     "lon": -87.95949381372864
   },
@@ -2062,7 +2062,7 @@
     "state": "IL",
     "zip": "60005",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey"],
+    "products": ["eggs-medium", "milk", "butter", "honey"],
     "lat": 42.05195379264094, 
     "lon": -87.97690663152125
   },
@@ -2075,7 +2075,7 @@
     "state": "IL",
     "zip": "60202",
     "phone": "",
-    "products": ["eggs", "milk", "butter"],
+    "products": ["eggs-medium", "milk", "butter"],
     "lat": 42.03869858850296, 
     "lon": -87.70039299041719
   },
@@ -2088,7 +2088,7 @@
     "state": "IL",
     "zip": "60139",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam"],
+    "products": ["eggs-medium", "milk", "butter", "honey", "jam-apricot"],
     "lat": 41.90102981060159, 
     "lon": -88.08365549042153
   },
@@ -2101,7 +2101,7 @@
     "state": "IL",
     "zip": "60194",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam"],
+    "products": ["eggs-medium", "milk", "butter", "honey", "jam-apricot"],
     "lat": 42.04389429172051, 
     "lon": -88.08123147262597
   },
@@ -2114,7 +2114,7 @@
     "state": "IL",
     "zip": "60090",
     "phone": "",
-    "products": ["eggs", "milk", "butter", "honey", "jam"],
+    "products": ["eggs-medium", "milk", "butter", "honey", "jam-apricot"],
     "lat": 42.13898806127829, 
     "lon": -87.90834234930956
   },
@@ -2127,7 +2127,7 @@
     "state": "IL",
     "zip": "60089",
     "phone": "",
-    "products": ["eggs", "milk", "butter"],
+    "products": ["eggs-medium", "milk", "butter"],
     "lat": 42.16926796749003, 
     "lon": -87.92403370820418
   },
@@ -2140,7 +2140,7 @@
     "state": "IL",
     "zip": "60110",
     "phone": "",
-    "products": ["eggs", "milk", "butter"],
+    "products": ["eggs-medium", "milk", "butter"],
     "lat": 42.12021317014083, 
     "lon": -88.33840420207132
   },
@@ -2153,7 +2153,7 @@
     "state": "IL",
     "zip": "60051",
     "phone": "",
-    "products": ["eggs", "milk", "butter"],
+    "products": ["eggs-medium", "milk", "butter"],
     "lat": 42.32052572208016, 
     "lon": -88.16782775482618
   }

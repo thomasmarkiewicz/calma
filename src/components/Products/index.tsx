@@ -15,7 +15,7 @@ export const Products: FC = () => {
   return (
     <Canvas
       css={{
-        maxWidth: "980px",
+        maxWidth: "1400px",
         verticalAlign: "middle",
       }}
     >
@@ -44,7 +44,7 @@ export const Products: FC = () => {
           gridGap: "1rem",
         }}
       >
-        {products.slice(0, 9).map((p) => (
+        {products.map((p) => (
           <figure key={p.id}>
             <img
               src={require(`../../img/${p.images[0]}`)}

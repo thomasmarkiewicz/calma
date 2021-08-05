@@ -7,16 +7,32 @@
     "images": ["calma_chicken.jpg"]
   },
   {
-    "id": "eggs",
-    "name": "Eggs",
+    "id": "eggs-medium",
+    "name": "Eggs - Medium",
     "desc": "",
     "options": ["Medium", "Large", "Extra Large", "Jumbo"],
-    "images": [
-      "calma_eggs_medium.jpg",
-      "calma_eggs_large.jpg",
-      "calma_eggs_extra_large.jpg",
-      "calma_eggs_jumbo.jpg"
-    ]
+    "images": ["calma_eggs_medium.jpg"]
+  },
+  {
+    "id": "eggs-large",
+    "name": "Eggs - Large",
+    "desc": "",
+    "options": [],
+    "images": ["calma_eggs_large.jpg"]
+  },
+  {
+    "id": "eggs-extra-large",
+    "name": "Eggs - Extra Large",
+    "desc": "",
+    "options": [],
+    "images": ["calma_eggs_extra_large.jpg"]
+  },
+  {
+    "id": "eggs-jumbo",
+    "name": "Eggs - Jumbo",
+    "desc": "",
+    "options": [],
+    "images": ["calma_eggs_jumbo.jpg"]
   },
   {
     "id": "milk",
@@ -40,19 +56,55 @@
     "images": ["calma_honey.jpg"]
   },
   {
-    "id": "jam",
-    "name": "Jam",
+    "id": "butter-apple",
+    "name": "Apple Butter",
+    "desc": "",
+    "options": [],
+    "images": ["calma_butter_apple.jpg"]
+  },
+  {
+    "id": "butter-plum",
+    "name": "Plum Butter",
+    "desc": "",
+    "options": [],
+    "images": ["calma_jam_plum.jpg"]
+  },
+  {
+    "id": "jam-apricot",
+    "name": "Apricot Jam",
     "desc": "",
     "options": [],
     "images": [
-      "calma_jam_apricot.jpg",
-      "calma_jam_black_rasberry.jpg",
-      "calma_jam_strawberry.jpg",
-      "calma_jam_gooseberry.jpg",
-      "calma_jam_apple.jpg",
-      "calma_jam_sour_cherry.jpg",
-      "calma_jam_plum.jpg"
+      "calma_jam_apricot.jpg"
     ]
+  },
+  {
+    "id": "jam-black-rasperry",
+    "name": "Black Rasberry Jam",
+    "desc": "",
+    "options": [],
+    "images": ["calma_jam_black_rasberry.jpg"]
+  },
+  {
+    "id": "jam-strawberry-rhubarb",
+    "name": "Strawberry Rhubarb Jam",
+    "desc": "",
+    "options": [],
+    "images": ["calma_jam_strawberry_rhubarb.jpg"]
+  },
+  {
+    "id": "jam-gooseberry",
+    "name": "Gooseberry Jam",
+    "desc": "",
+    "options": [],
+    "images": ["calma_jam_gooseberry.jpg"]
+  },
+  {
+    "id": "jam-sour-cherry",
+    "name": "Sour Cherry Jam",
+    "desc": "",
+    "options": [],
+    "images": ["calma_jam_sour_cherry.jpg"]
   },
   {
     "id": "buttermilk",
@@ -67,5 +119,19 @@
     "desc": "",
     "options": [],
     "images": ["calma_goat_milk.jpg"]
+  },
+  {
+    "id": "yogurt-plain",
+    "name": "Plain Yogurt",
+    "desc": "",
+    "options": [],
+    "images": ["calma_yogurt_plain.jpg"]
+  },
+  {
+    "id": "yogurt-mixed-berry",
+    "name": "Mixed Berry Yogurt",
+    "desc": "",
+    "options": [],
+    "images": ["calma_yogurt_mixed_berry.jpg"]
   }
 ]

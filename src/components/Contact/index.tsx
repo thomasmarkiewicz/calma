@@ -29,6 +29,11 @@ export const Contact: FC = () => {
         />
         &nbsp;&nbsp;<a css={{color: "inherit"}} href="mailto:info@calmaoptimal.com">info@calmaoptimal.com</a>
       </Subheading>
+      <Subheading>Follow us on 
+        <a css={{color: "inherit"}} href="https://www.facebook.com/Calma-Optimal-Food-ltd-111489320792/"> Facebook </a>
+        and 
+        <a css={{color: "inherit"}}  href="https://twitter.com/Calmaoptimal?s=01"> Twitter</a>
+      </Subheading>
     </Canvas>
   );
 };
