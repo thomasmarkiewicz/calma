@@ -1,15 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f7b79bd4a9e5cc66eb9a297dbdc0d46c",
+    "revision": "783679360c9fa9e11cd8c60e988dcfb4",
     "url": "/index.html"
   },
   {
-    "revision": "cc31ba71f2e292a8d437",
+    "revision": "a9302544a43bc5c97000",
     "url": "/static/css/main.4a680ddd.chunk.css"
   },
   {
-    "revision": "cc31ba71f2e292a8d437",
-    "url": "/static/js/main.3fbc0e22.chunk.js"
+    "revision": "a9302544a43bc5c97000",
+    "url": "/static/js/main.8586e85f.chunk.js"
   },
   {
     "revision": "6f67d9d255d31e898604",
@@ -24,12 +24,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/vendor.db84e128.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "07858efcc9905488a87b",
-    "url": "/static/js/vendors~main.379c8d17.chunk.js"
+    "revision": "c883c10b5b0f9b81e49e",
+    "url": "/static/js/vendors~main.a866edf2.chunk.js"
   },
   {
-    "revision": "4c642219487b9072d38684675f88278f",
-    "url": "/static/js/vendors~main.379c8d17.chunk.js.LICENSE.txt"
+    "revision": "94029b8d534bec882ab553b33e9114c7",
+    "url": "/static/js/vendors~main.a866edf2.chunk.js.LICENSE.txt"
   },
   {
     "revision": "66ceeae6f35b655b89c6225ac283de0d",
@@ -58,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f939d7af765dd1e9ef950c429e8150c0",
     "url": "/static/media/calma_butter.f939d7af.jpg"
+  },
+  {
+    "revision": "103f2aff49070129ea247422d12931c9",
+    "url": "/static/media/calma_butter_apple.103f2aff.jpg"
   },
   {
     "revision": "3c559b9c1591c6ba889c41370ad9abe6",
@@ -117,11 +121,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "22dc506b265befbf8722f3fdd4261d97",
-    "url": "/static/media/calma_jam_strawberry.22dc506b.jpg"
+    "url": "/static/media/calma_jam_strawberry_rhubarb.22dc506b.jpg"
   },
   {
     "revision": "6a263ef79e5011552b3986459e66c09b",
     "url": "/static/media/calma_milk_whole.6a263ef7.jpg"
+  },
+  {
+    "revision": "8dfc40db6c5d9ab307bdc238c71f7400",
+    "url": "/static/media/calma_yogurt_mixed_berry.8dfc40db.jpg"
+  },
+  {
+    "revision": "5c1bc3900990347fc8580f7caeb31319",
+    "url": "/static/media/calma_yogurt_plain.5c1bc390.jpg"
   },
   {
     "revision": "4e559e8f29be292dd88b9262aa0fa6c4",
