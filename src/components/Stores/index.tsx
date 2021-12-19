@@ -37,7 +37,8 @@ export const Stores: FC = () => {
         }}
         css={{
           color: "#000 !important",
-          backgroundColor: "#f4f1f1 !important",
+          backgroundColor: "#14e631 !important",
+          //backgroundColor: "#f4f1f1 !important",
           padding: "12px 24px !important",
           userSelect: "none",
           border: "none",
