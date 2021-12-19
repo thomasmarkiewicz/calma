@@ -7,7 +7,7 @@ import { Locator } from "../Locator";
 import stores from "../../data/stores.json";
 
 const alphabeticalStores = stores.sort((a: { name: string }, b: { name: string }) =>
-  a.name < b.name ? 1 : -1
+  a.name > b.name ? 1 : -1
 );
 
 export const Stores: FC = () => {
