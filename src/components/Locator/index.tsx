@@ -247,9 +247,22 @@ export const LocatorBase: FC<Props> = (args) => {
             height: "calc(var(--vh, 1vh) * 95)",
           }}
         >
-          <h2>{product?.name}</h2>
+          <div css={{ textAlign: "center" }}>
+            <h2>{product?.name}</h2>
 
-          {locationButton()}
+            <img
+              src={src}
+              alt={product?.name}
+              css={{
+                borderStyle: "1px solid grey",
+                borderRadius: "8px",
+                height: "200px",
+                marginBottom: "16px",
+              }}
+            />
+
+            {locationButton()}
+          </div>
 
           {storeList}
         </div>
@@ -260,7 +273,6 @@ export const LocatorBase: FC<Props> = (args) => {
             left: "auto",
             right: "8px",
             bottom: "8px",
-
           }}
         >
           <button
