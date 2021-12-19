@@ -1,11 +1,7 @@
-import React, { FC, HTMLProps } from "react";
-import { useTheme } from "emotion-theming";
-import { Theme } from "../../app/Theme";
+import React, { FC, HTMLProps, useRef, useState } from "react";
 import { CSSObject } from "@emotion/core";
 
 export const Navbar: FC = () => {
-  const theme = useTheme<Theme>();
-
   const itemStyles: CSSObject = {
     padding: "8px 8px",
     //float: 'left',
@@ -38,7 +34,8 @@ export const Navbar: FC = () => {
   };
 
   return (
-    <div id="home"
+    <div
+      id="home"
       css={{
         position: "fixed",
         width: "100%",
@@ -46,7 +43,7 @@ export const Navbar: FC = () => {
         top: 0,
       }}
     >
-      { /* .w3-bar */ }
+      {/* .w3-bar */}
       <div
         css={{
           padding: "8px 8px",
@@ -59,7 +56,7 @@ export const Navbar: FC = () => {
           position: "static",
           whiteSpace: "normal",
           backgroundColor: "#dbedfc !important",
-          opacity: ".95"
+          opacity: ".95",
         }}
       >
         {/* home */}
@@ -67,22 +64,26 @@ export const Navbar: FC = () => {
           HOME
         </a>
 
-        {/* about */}
+        {/* about 
         <a href="#about" css={itemStyles}>
           ABOUT
         </a>
+        */}
 
         {/* products */}
         <a href="#products" css={itemStyles}>
           PRODUCTS
         </a>
 
+        {/* products */}
+        <a href="#stores" css={itemStyles}>
+          STORES
+        </a>
+
         {/* contact */}
         <a href="#contact" css={itemStyles}>
           CONTACT
         </a>
-
-
       </div>
     </div>
   );

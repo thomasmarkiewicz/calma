@@ -55,7 +55,7 @@ function getDistanceFromLatLonInMiles(
 }
 
 interface Props extends GeolocatedProps {
-  productId: string;
+  productId?: string | null | undefined;
   isOpen: boolean;
   close: () => void;
   stores: any;
@@ -97,7 +97,7 @@ export const LocatorBase: FC<Props> = (args) => {
 
   useEffect(() => {
     const storesWithProduct = storesWithDistance
-      .filter((s: any) => s.products.includes(productId))
+      .filter((s: any) => (productId ? s.products.includes(productId) : s))
       .sort((a: { dist: number }, b: { dist: number }) =>
         a.dist < b.dist ? 1 : -1
       );
@@ -248,18 +248,21 @@ export const LocatorBase: FC<Props> = (args) => {
           }}
         >
           <div css={{ textAlign: "center" }}>
-            <h2>{product?.name}</h2>
+            {productId && <h2>{product?.name}</h2>}
+            {!productId && <h2>Stores</h2>}
 
-            <img
-              src={src}
-              alt={product?.name}
-              css={{
-                borderStyle: "1px solid grey",
-                borderRadius: "8px",
-                height: "200px",
-                marginBottom: "16px",
-              }}
-            />
+            {productId && (
+              <img
+                src={src}
+                alt={product?.name}
+                css={{
+                  borderStyle: "1px solid grey",
+                  borderRadius: "8px",
+                  height: "200px",
+                  marginBottom: "16px",
+                }}
+              />
+            )}
 
             {locationButton()}
           </div>
