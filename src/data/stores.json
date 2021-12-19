@@ -364,6 +364,19 @@
     "lon": -88.2096527
   },
   {
+    "id": "dc15c9ed5bad",
+    "name": "Caputo's Fresh Markets",
+    "desc": "",
+    "street": "11333 W 159th St",
+    "city": "Orland Park",
+    "state": "IL",
+    "zip": "60467",
+    "phone": "",
+    "products": [],
+    "lat": 41.59887016590622, 
+    "lon": -87.8944051555469
+  },
+  {
     "id": "e58e982c3364",
     "name": "Celina's Fresh Market",
     "desc": "",
@@ -648,19 +661,6 @@
     "products": ["eggs-medium"],
     "lat": 41.9384833,
     "lon": -87.7668526
-  },
-  {
-    "id": "cf0d5d6aa4da",
-    "name": "Hickory Hills Deli",
-    "desc": "",
-    "street": "8824 S Roberts Rd",
-    "city": "Hickory Hills",
-    "state": "IL",
-    "zip": "60457",
-    "phone": "",
-    "products": ["eggs-medium", "butter", "chicken"],
-    "lat": 41.730467,
-    "lon": -87.8209527
   },
   {
     "id": "e92e5634cd6b",
@@ -1129,19 +1129,6 @@
     "products": ["eggs-medium", "butter", "honey", "jam-apricot", "goatmilk"],
     "lat": 41.9655571,
     "lon": -87.8357905
-  },
-  {
-    "id": "3877756a7194",
-    "name": "Pulaski Polish Deli & Bakery",
-    "desc": "",
-    "street": "7143 W Addison St",
-    "city": "Chicago",
-    "state": "IL",
-    "zip": "60634",
-    "phone": "",
-    "products": ["eggs-medium", "butter", "chicken", "honey"],
-    "lat": 41.9450029,
-    "lon": -87.8050912
   },
   {
     "id": "da0dc4cd41cc",
@@ -1742,6 +1729,19 @@
     "lon": -88.10326908042906
   },
   {
+    "id": "23d60208107f",
+    "name": "Pychotka Deli",
+    "desc": "",
+    "street": "11951 W 143rd St",
+    "city": "Orland Park",
+    "state": "IL",
+    "zip": "60467",
+    "phone": "",
+    "products": [],
+    "lat": 41.62852922858519, 
+    "lon": -87.90970660163283
+  },
+  {
     "id": "6071bc739eda",
     "name": "Sam's Farmer's Market",
     "desc": "",
@@ -2156,6 +2156,19 @@
     "products": ["eggs-medium", "milk", "butter", "goatmilk"],
     "lat": 42.32052572208016, 
     "lon": -88.16782775482618
+  },
+  {
+    "id": "46e6e3e6a51a",
+    "name": "ZaZa's Deli",
+    "desc": "",
+    "street": "3055 N Milwaukee Ave",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60618",
+    "phone": "",
+    "products": [],
+    "lat": 41.93677499303002, 
+    "lon": -87.71978629304388
   }
 ]
 
