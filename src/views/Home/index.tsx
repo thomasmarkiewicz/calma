@@ -7,6 +7,8 @@ import { ParallaxContact } from '../../components/ParallaxContact';
 import { Statistics } from '../../components/Statistics';
 import { Products } from '../../components/Products';
 import { Navbar } from '../../components/Navbar';
+import { ParallaxStores } from '../../components/ParallaxStores';
+import { Stores } from '../../components/Stores';
 
 export const Home = () => (
     <div id="home">
@@ -16,6 +18,8 @@ export const Home = () => (
         <Statistics />
         <ParallaxProducts />
         <Products />
+        <ParallaxStores />
+        <Stores />
         <ParallaxContact />
         <Contact />
         <div css={{position: "relative", height: 500}} />

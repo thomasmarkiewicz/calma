@@ -28,7 +28,7 @@ export const Products: FC = () => {
           locatorRef?.current
             ? (locatorRef?.current as any).getLocation
             : () => {
-                console.log("here, can't getLocation");
+                console.log("can't getLocation");
               }
         }
         ref={locatorRef}
