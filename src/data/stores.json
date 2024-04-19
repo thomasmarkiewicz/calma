@@ -1,18 +1,5 @@
 [
   {
-    "id": "2cc176a02697",
-    "name": "Ada's European Market",
-    "desc": "",
-    "street": "8301 Grand Ave",
-    "city": "River Grove",
-    "state": "IL",
-    "zip": "60171",
-    "phone": "",
-    "products": ["eggs-medium", "butter", "honey"],
-    "lat": 41.9281057,
-    "lon": -87.8358121
-  },
-  {
     "id": "b80ee6ce9c3e",
     "name": "Amish Healthy Foods",
     "desc": "",
@@ -98,26 +85,6 @@
     "lon": -88.0123393
   },
   {
-    "id": "1f4cb25b900e",
-    "name": "Avenue Food Mart",
-    "desc": "",
-    "street": "6850 W Belmont Ave",
-    "city": "Chicago",
-    "state": "IL",
-    "zip": "60634",
-    "phone": "",
-    "products": [
-      "eggs-medium",
-      "milk",
-      "buttermilk",
-      "yogurt-plain",
-      "yogurt-mixed-berry",
-      "butter"
-    ],
-    "lat": 41.9384038,
-    "lon": -87.7973446
-  },
-  {
     "id": "5c65e7711dc6",
     "name": "Bacik Deli",
     "desc": "",
@@ -171,19 +138,6 @@
     ],
     "lat": 41.8224019,
     "lon": -87.8045162
-  },
-  {
-    "id": "7db3b4b5d60e",
-    "name": "Bristol Deli",
-    "desc": "",
-    "street": "5207 W Belmont Ave",
-    "city": "Chicago",
-    "state": "IL",
-    "zip": "60641",
-    "phone": "",
-    "products": ["eggs-medium"],
-    "lat": 41.9385654,
-    "lon": -87.7592873
   },
   {
     "id": "b4724ce2b6b4",
@@ -659,19 +613,6 @@
     "lon": -87.6692901
   },
   {
-    "id": "db46a860b14d",
-    "name": "Alex Super Deli",
-    "desc": "",
-    "street": "3055 N Milwaukee Ave",
-    "city": "Chicago",
-    "state": "IL",
-    "zip": "60618",
-    "phone": "",
-    "products": ["eggs-medium"],
-    "lat": 41.9367703,
-    "lon": -87.7219405
-  },
-  {
     "id": "e25356738ba3",
     "name": "Eurofresh Market",
     "desc": "",
@@ -863,19 +804,6 @@
     "lon": -87.9982519
   },
   {
-    "id": "af8a4548041d",
-    "name": "Gepperth's Meat Market",
-    "desc": "",
-    "street": "1964 N Halsted St",
-    "city": "Chicago",
-    "state": "IL",
-    "zip": "60614",
-    "phone": "",
-    "products": ["eggs-medium", "chicken"],
-    "lat": 41.9178511,
-    "lon": -87.6508439
-  },
-  {
     "id": "1c193a235346",
     "name": "Gorka Deli",
     "desc": "",
@@ -887,28 +815,6 @@
     "products": ["eggs-medium", "butter", "chicken"],
     "lat": 41.6148723,
     "lon": -87.8574927
-  },
-  {
-    "id": "0137ee0519ad",
-    "name": "Harvest Fresh Market",
-    "desc": "",
-    "street": "100 E Rand Road",
-    "city": "Arlington Heights",
-    "state": "IL",
-    "zip": "60004",
-    "phone": "",
-    "products": [
-      "eggs-medium",
-      "milk",
-      "buttermilk",
-      "yogurt-plain",
-      "yogurt-mixed-berry",
-      "butter",
-      "honey",
-      "jam-apricot"
-    ],
-    "lat": 42.113908,
-    "lon": -87.9834606
   },
   {
     "id": "d3bca21a1f4d",
@@ -1126,19 +1032,6 @@
     "lon": -87.720143
   },
   {
-    "id": "d482d392eb8c",
-    "name": "Lakeland Bakery & Deli",
-    "desc": "",
-    "street": "19 S US-12",
-    "city": "Fox Lake",
-    "state": "IL",
-    "zip": "60020",
-    "phone": "",
-    "products": ["eggs-medium"],
-    "lat": 42.3955549,
-    "lon": -88.1858197
-  },
-  {
     "id": "b636d6ccc61e",
     "name": "Lassak Delicatessen",
     "desc": "",
@@ -1162,26 +1055,6 @@
     ],
     "lat": 41.7314427,
     "lon": -87.9506234
-  },
-  {
-    "id": "f5364b6c3061",
-    "name": "Little Market - Polish Deli",
-    "desc": "",
-    "street": "225 E Irving Park Rd",
-    "city": "Roselle",
-    "state": "IL",
-    "zip": "60172",
-    "phone": "",
-    "products": [
-      "eggs-medium",
-      "milk",
-      "buttermilk",
-      "yogurt-plain",
-      "yogurt-mixed-berry",
-      "chicken"
-    ],
-    "lat": 41.9835749,
-    "lon": -88.0767531
   },
   {
     "id": "f9058501683a",
@@ -1351,26 +1224,6 @@
     "lon": -87.9797424
   },
   {
-    "id": "4ff8542af1b9",
-    "name": "My Polish Deli",
-    "desc": "",
-    "street": "1234 E Lake St",
-    "city": "Hanover Park",
-    "state": "IL",
-    "zip": "60133",
-    "phone": "",
-    "products": [
-      "eggs-medium",
-      "milk",
-      "buttermilk",
-      "yogurt-plain",
-      "yogurt-mixed-berry",
-      "jam-apricot"
-    ],
-    "lat": 41.9779907,
-    "lon": -88.135854
-  },
-  {
     "id": "cfbf452b854d",
     "name": "Garden Fresh Market",
     "desc": "",
@@ -1391,19 +1244,6 @@
     ],
     "lat": 41.7498403,
     "lon": -88.1653015
-  },
-  {
-    "id": "17850d335caa",
-    "name": "Niles Polish Deli",
-    "desc": "",
-    "street": "8705 N Milwaukee Ave",
-    "city": "Niles",
-    "state": "IL",
-    "zip": "60714",
-    "phone": "",
-    "products": ["eggs-medium"],
-    "lat": 42.0388561,
-    "lon": -87.8250215
   },
   {
     "id": "4581e7c30659",
@@ -2268,7 +2108,7 @@
   },
   {
     "id": "6071bc739eda",
-    "name": "Sam's Farmer's Market",
+    "name": "Oak Farms Market",
     "desc": "",
     "street": "1045 E Oakton St",
     "city": "Des PLaines",
@@ -2416,19 +2256,6 @@
     ],
     "lat": 41.97159859636091,
     "lon": -87.83763319041925
-  },
-  {
-    "id": "d2c196d4ac35",
-    "name": "Szymanski Deli & Liquors",
-    "desc": "",
-    "street": "6016 W Irving Park Rd",
-    "city": "Chicago",
-    "state": "IL",
-    "zip": "60634",
-    "phone": "",
-    "products": ["eggs-medium"],
-    "lat": 41.95327589563815,
-    "lon": -87.77744359041988
   },
   {
     "id": "d6f1f6c33438",
@@ -2647,28 +2474,6 @@
     "lon": -87.95949381372864
   },
   {
-    "id": "518ef8f26101",
-    "name": "Valli Produce",
-    "desc": "",
-    "street": "450 E Golf Rd",
-    "city": "Arlington Heights",
-    "state": "IL",
-    "zip": "60005",
-    "phone": "",
-    "products": [
-      "eggs-medium",
-      "milk",
-      "buttermilk",
-      "yogurt-plain",
-      "yogurt-mixed-berry",
-      "butter",
-      "honey",
-      "goatmilk"
-    ],
-    "lat": 42.05195379264094,
-    "lon": -87.97690663152125
-  },
-  {
     "id": "157ed182c5a6",
     "name": "Valli Produce",
     "desc": "",
@@ -2687,29 +2492,6 @@
     ],
     "lat": 42.03869858850296,
     "lon": -87.70039299041719
-  },
-  {
-    "id": "f973dfbcef68",
-    "name": "Valli Produce",
-    "desc": "",
-    "street": "155 E North Ave",
-    "city": "Glendale Heights",
-    "state": "IL",
-    "zip": "60139",
-    "phone": "",
-    "products": [
-      "eggs-medium",
-      "milk",
-      "buttermilk",
-      "yogurt-plain",
-      "yogurt-mixed-berry",
-      "butter",
-      "honey",
-      "jam-apricot",
-      "goatmilk"
-    ],
-    "lat": 41.90102981060159,
-    "lon": -88.08365549042153
   },
   {
     "id": "e594c4105c41",
@@ -2818,18 +2600,5 @@
     ],
     "lat": 42.32052572208016,
     "lon": -88.16782775482618
-  },
-  {
-    "id": "46e6e3e6a51a",
-    "name": "ZaZa's Deli",
-    "desc": "",
-    "street": "3055 N Milwaukee Ave",
-    "city": "Chicago",
-    "state": "IL",
-    "zip": "60618",
-    "phone": "",
-    "products": [],
-    "lat": 41.93677499303002,
-    "lon": -87.71978629304388
   }
 ]
