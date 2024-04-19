@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.4a680ddd.chunk.css",
-    "main.js": "/static/js/main.d62d49a4.chunk.js",
-    "main.js.map": "/static/js/main.d62d49a4.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.be76163c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.be76163c.js.map",
-    "vendor.js": "/static/js/vendor.8314250b.chunk.js",
-    "vendor.js.map": "/static/js/vendor.8314250b.chunk.js.map",
-    "vendors~main.js": "/static/js/vendors~main.7d059287.chunk.js",
-    "vendors~main.js.map": "/static/js/vendors~main.7d059287.chunk.js.map",
+    "main.js": "/static/js/main.0ab8cfb3.chunk.js",
+    "main.js.map": "/static/js/main.0ab8cfb3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.424e9ea0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.424e9ea0.js.map",
+    "vendor.js": "/static/js/vendor.d53aa875.chunk.js",
+    "vendor.js.map": "/static/js/vendor.d53aa875.chunk.js.map",
+    "vendors~main.js": "/static/js/vendors~main.d579c99a.chunk.js",
+    "vendors~main.js.map": "/static/js/vendors~main.d579c99a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5d158dabda7f2b11732dbf82c2351232.js": "/precache-manifest.5d158dabda7f2b11732dbf82c2351232.js",
+    "precache-manifest.d54d3385a8eeab707870ce6df992f913.js": "/precache-manifest.d54d3385a8eeab707870ce6df992f913.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.4a680ddd.chunk.css.map": "/static/css/main.4a680ddd.chunk.css.map",
-    "static/js/vendor.8314250b.chunk.js.LICENSE.txt": "/static/js/vendor.8314250b.chunk.js.LICENSE.txt",
-    "static/js/vendors~main.7d059287.chunk.js.LICENSE.txt": "/static/js/vendors~main.7d059287.chunk.js.LICENSE.txt",
+    "static/js/vendor.d53aa875.chunk.js.LICENSE.txt": "/static/js/vendor.d53aa875.chunk.js.LICENSE.txt",
+    "static/js/vendors~main.d579c99a.chunk.js.LICENSE.txt": "/static/js/vendors~main.d579c99a.chunk.js.LICENSE.txt",
     "static/media/bg_chicken_free_wheels.jpg": "/static/media/bg_chicken_free_wheels.66ceeae6.jpg",
     "static/media/bg_eggs_in_basket_even_tone.jpg": "/static/media/bg_eggs_in_basket_even_tone.9fe4fb0d.jpg",
     "static/media/bg_farm.jpg": "/static/media/bg_farm.c324bfc7.jpg",
@@ -54,10 +54,10 @@
     "static/media/store.png": "/static/media/store.b9bd20e9.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.be76163c.js",
-    "static/js/vendor.8314250b.chunk.js",
-    "static/js/vendors~main.7d059287.chunk.js",
+    "static/js/runtime-main.424e9ea0.js",
+    "static/js/vendor.d53aa875.chunk.js",
+    "static/js/vendors~main.d579c99a.chunk.js",
     "static/css/main.4a680ddd.chunk.css",
-    "static/js/main.d62d49a4.chunk.js"
+    "static/js/main.0ab8cfb3.chunk.js"
   ]
 }
