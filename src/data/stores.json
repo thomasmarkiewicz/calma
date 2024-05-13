@@ -13,7 +13,6 @@
       "buttermilk",
       "yogurt-plain",
       "yogurt-mixed-berry",
-      "chicken",
       "jam-apricot"
     ],
     "lat": 41.9001769,
@@ -36,7 +35,8 @@
       "yogurt-mixed-berry",
       "butter",
       "honey",
-      "goatmilk"
+      "goatmilk",
+      "chicken"
     ],
     "lat": 41.9803056,
     "lon": -87.7745748
@@ -57,9 +57,9 @@
       "yogurt-plain",
       "yogurt-mixed-berry",
       "butter",
-      "chicken",
       "honey",
-      "jam-apricot"
+      "jam-apricot",
+      "chicken"
     ],
     "lat": 42.1858085,
     "lon": -88.0914855
@@ -112,8 +112,7 @@
       "buttermilk",
       "yogurt-plain",
       "yogurt-mixed-berry",
-      "butter",
-      "chicken"
+      "butter"
     ],
     "lat": 41.9298272,
     "lon": -87.8666449
@@ -491,7 +490,8 @@
       "yogurt-plain",
       "yogurt-mixed-berry",
       "butter",
-      "goatmilk"
+      "goatmilk",
+      "chicken"
     ],
     "lat": 41.9972222,
     "lon": -87.7121887
@@ -513,7 +513,8 @@
       "yogurt-mixed-berry",
       "butter",
       "turkey",
-      "goatmilk"
+      "goatmilk",
+      "chicken"
     ],
     "lat": 42.1528846,
     "lon": -88.334403
@@ -534,10 +535,10 @@
       "yogurt-plain",
       "yogurt-mixed-berry",
       "butter",
-      "chicken",
       "honey",
       "jam-apricot",
-      "goatmilk"
+      "goatmilk",
+      "chicken"
     ],
     "lat": 41.960138,
     "lon": -87.8091487
@@ -628,10 +629,10 @@
       "yogurt-plain",
       "yogurt-mixed-berry",
       "butter",
-      "chicken",
       "honey",
       "jam-apricot",
-      "turkey"
+      "turkey",
+      "chicken"
     ],
     "lat": 42.123133,
     "lon": -88.0493847
@@ -651,9 +652,9 @@
       "buttermilk",
       "yogurt-plain",
       "yogurt-mixed-berry",
-      "chicken",
       "honey",
-      "jam-apricot"
+      "jam-apricot",
+      "chicken"
     ],
     "lat": 41.956062,
     "lon": -88.07665
@@ -825,7 +826,7 @@
     "state": "IL",
     "zip": "60191",
     "phone": "",
-    "products": ["eggs-medium"],
+    "products": ["eggs-medium", "chicken"],
     "lat": 41.964354,
     "lon": -87.9889755
   },
@@ -861,7 +862,8 @@
       "honey",
       "jam-apricot",
       "turkey",
-      "goatmilk"
+      "goatmilk",
+      "chicken"
     ],
     "lat": 42.024839,
     "lon": -87.8143709
@@ -882,8 +884,8 @@
       "yogurt-plain",
       "yogurt-mixed-berry",
       "butter",
-      "chicken",
-      "honey"
+      "honey",
+      "chicken"
     ],
     "lat": 41.7331222,
     "lon": -87.7828887
@@ -999,14 +1001,14 @@
   },
   {
     "id": "da527fc9027c",
-    "name": "Kordian's Market",
+    "name": "Deluxe Global Market",
     "desc": "",
     "street": "6332 W Higgins Ave",
     "city": "Chicago",
     "state": "IL",
     "zip": "60630",
     "phone": "",
-    "products": ["eggs-medium", "butter", "chicken", "honey", "jam-apricot"],
+    "products": ["eggs-medium", "butter", "honey", "jam-apricot", "chicken"],
     "lat": 41.9762299,
     "lon": -87.7886168
   },
@@ -1047,11 +1049,11 @@
       "yogurt-plain",
       "yogurt-mixed-berry",
       "butter",
-      "chicken",
       "honey",
       "jam-apricot",
       "turkey",
-      "goatmilk"
+      "goatmilk",
+      "chicken"
     ],
     "lat": 41.7314427,
     "lon": -87.9506234
@@ -1115,7 +1117,8 @@
       "buttermilk",
       "yogurt-plain",
       "yogurt-mixed-berry",
-      "goatmilk"
+      "goatmilk",
+      "chicken"
     ],
     "lat": 42.2613482,
     "lon": -88.1676005
@@ -1472,7 +1475,7 @@
     "state": "IN",
     "zip": "46373",
     "phone": "",
-    "products": ["eggs-medium", "butter", "chicken", "jam-apricot"],
+    "products": ["eggs-medium", "butter", "jam-apricot"],
     "lat": 41.4278444,
     "lon": -87.4404473
   },
@@ -1517,7 +1520,7 @@
     "state": "IL",
     "zip": "60706",
     "phone": "",
-    "products": ["eggs-medium", "butter", "chicken", "honey", "goatmilk"],
+    "products": ["eggs-medium", "butter", "honey", "goatmilk"],
     "lat": 41.96625415348518,
     "lon": -87.80657361835557
   },
@@ -2143,7 +2146,6 @@
       "yogurt-plain",
       "yogurt-mixed-berry",
       "butter",
-      "chicken",
       "goatmilk"
     ],
     "lat": 41.795677247730886,
@@ -2210,8 +2212,7 @@
       "buttermilk",
       "yogurt-plain",
       "yogurt-mixed-berry",
-      "butter",
-      "chicken"
+      "butter"
     ],
     "lat": 41.99621124069635,
     "lon": -87.7885354503152
@@ -2488,7 +2489,8 @@
       "buttermilk",
       "yogurt-plain",
       "yogurt-mixed-berry",
-      "butter"
+      "butter",
+      "chicken"
     ],
     "lat": 42.03869858850296,
     "lon": -87.70039299041719
@@ -2510,7 +2512,8 @@
       "yogurt-mixed-berry",
       "butter",
       "honey",
-      "jam-apricot"
+      "jam-apricot",
+      "chicken"
     ],
     "lat": 42.04389429172051,
     "lon": -88.08123147262597
@@ -2600,5 +2603,50 @@
     ],
     "lat": 42.32052572208016,
     "lon": -88.16782775482618
+  },
+  {
+    "id": "092648cac487",
+    "name": "Celina's Deli",
+    "desc": "",
+    "street": "5089 S Archer Ave",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60632",
+    "phone": "",
+    "products": [
+      "chicken"
+    ],
+    "lat": 41.80078059807384, 
+    "lon": -87.7285209171829
+  },
+  {
+    "id": "092648cac488",
+    "name": "Deli 4 You",
+    "desc": "",
+    "street": "8526 W Golf Rd",
+    "city": "Niles",
+    "state": "IL",
+    "zip": "60714",
+    "phone": "",
+    "products": [
+      "chicken"
+    ],
+    "lat": 42.0565644790596, 
+    "lon": -87.83815863260219
+  },
+  {
+    "id": "092648cac489",
+    "name": "Oxtail Market",
+    "desc": "",
+    "street": "777 S Milwaukee Ave",
+    "city": "Lake Villa",
+    "state": "IL",
+    "zip": "60046",
+    "phone": "",
+    "products": [
+      "chicken"
+    ],
+    "lat": 42.401454285569365, 
+    "lon": -88.06586518613594
   }
 ]
