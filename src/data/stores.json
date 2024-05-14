@@ -85,19 +85,6 @@
     "lon": -88.0123393
   },
   {
-    "id": "5c65e7711dc6",
-    "name": "Bacik Deli",
-    "desc": "",
-    "street": "7744 N Milwaukee Ave",
-    "city": "Niles",
-    "state": "IL",
-    "zip": "60714",
-    "phone": "",
-    "products": ["eggs-medium"],
-    "lat": 42.0218579,
-    "lon": -87.8130771
-  },
-  {
     "id": "767bcb6889ca",
     "name": "Baranowski Bakery & Deli",
     "desc": "",
@@ -1228,7 +1215,7 @@
   },
   {
     "id": "cfbf452b854d",
-    "name": "Garden Fresh Market",
+    "name": "Naperville Fresh Market",
     "desc": "",
     "street": "955 W 75th St",
     "city": "Naperville",
@@ -2648,5 +2635,18 @@
     ],
     "lat": 42.401454285569365, 
     "lon": -88.06586518613594
+  },
+  {
+    "id": "092648cac490",
+    "name": "Woodman's Food Market",
+    "desc": "",
+    "street": "1 Stratford Dr",
+    "city": "Bloomingdale",
+    "state": "IL",
+    "zip": "60108",
+    "phone": "",
+    "products": [],
+    "lat": 41.94976141564912,
+    "lon": -88.11711471321682
   }
 ]
